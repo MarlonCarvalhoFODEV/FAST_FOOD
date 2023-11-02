@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">CZC Colaborador</string>
+
+    <!--<string name="connectionServer">ws://192.168.0.3:8080/MessageExchange</string>
+    <string name="connectionWs">http://192.168.0.3:8080/</string>-->
+
+    <string name="comprazencasa">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxSjUEX8jmJkWFVNsmSJdzhUztdZDk1tczliAQsQ0UhXobu9jP1u4k1krKcJt1uwhOlidhDRC0u/9dRnWx2/NMuMWV1NgerAnS4FFZxkIJUOAtT2Z4IpuZc3KCAzADsztclga14PPcYVF7RDaCaeLtuSGtYAEtM26KIgQQcNQ3VjkChSGRGVixEg5VUUkwtNk60FHKy7ugfu0Dpk5KL9py1/a1DkDckJK6xZml9ilVfi9DxiyOu+vuZPj9VKXd9BhodXRguVS3bTYNFnP0UkYGalB7NIHjNLg2ira8mxCDWwa4vQpJgofmNt3KQSex0aMBM3gaDh3aBI4g7fbaxeLHwIDAQAB</string>
+
+    <string name="connectionServer">ws://192.168.0.3:8080/MessageExchange</string>
+    <string name="domain_connection">http://192.168.0.3:8080/</string>
+
+    <!--<string name="connectionServer">ws://www.comprazencasa.com.br:19327/AppMobile/MessageExchange</string>
+    <string name="connectionWs">https://www.comprazencasa.com.br/AppMobile/</string>-->
+
+    <string name="title_activity_delivery_man">DeliveryManActivity</string>
+    <string name="title_activity_buyer">BuyerActivity</string>
+    <string name="title_orders">Encomendas</string>
+    <string name="title_in_production">Em produção</string>
+    <string name="title_for_delivery">P/ Entrega</string>
+
+    <string-array name="categories">
+        <item>Matinais</item>
+        <item>Biscoitos e Bombons</item>
+        <item>Limpeza e Perfumaria</item>
+        <item>Açougue</item>
+        <item>Bebidas</item>
+        <item>Bebês</item>
+        <item>Frio e Laticínios</item>
+        <item>Frutas, Legumes e Verduras</item>
+        <item>Alimentos Básicos</item>
+        <item>Salgados</item>
+    </string-array>
+
+    <string name="kkeyu">CzcColl</string>
+    <string name="kkeyp">M@rlOn85iwh222hs</string>
+
+    <string name="access_token" translatable="false">pk.eyJ1IjoibWFybG9uY3pjIiwiYSI6ImNqcXJoMXJ2aTAxZzQ0MnBxbmQxOXh5amUifQ.QbqfUUz8WteXALxmLkhyTQ</string>
+    <string name="user_location_permission_explanation">This app needs location permissions in order to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+
+    <string name="title_bottom_deliveryman_left">P/Entrega</string>
+    <string name="title_bottom_deliveryman_center">A Caminho</string>
+    <string name="title_bottom_deliveryman_right">Finalizada</string>
+
+    <string name="sp_db">request_data</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_order_products">OrderProductsActivity</string>
+    <string name="directions_activity_toast_message">fdfffff</string>
+    <string name="title_activity_add_product">AddProductActivity</string>
+</resources>

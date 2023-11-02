@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/back_black"
+    android:padding="32dp">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:background="@drawable/back_black">
+
+        <TextView
+            android:id="@+id/tv_address_delivery"
+            android:text="Endereço de Entrega"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#e9e9e9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_centerHorizontal="true"/>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/back_black"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/tv_address_delivery"
+            android:gravity="center"
+            android:layout_marginBottom="48dp">
+
+            <TextView
+                android:id="@+id/tv_address_defined_address"
+                android:text=""
+                android:textColor="#e9e9e9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_base_cep_fmt_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edit_text"
+                android:paddingBottom="5dp"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:layout_gravity="center"
+                android:layout_below="@+id/tv_address_defined_address"
+                android:layout_centerHorizontal="true"
+                app:counterTextColor="@color/colorPrimaryDark"
+                app:counterOverflowTextColor="@color/colorPrimaryDark"
+                app:helperTextTextColor="@color/colorPrimaryDark"
+                app:hintTextColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorPrimaryDark">
+
+                <EditText
+                    android:id="@+id/et_cep_fmt_address"
+                    android:hint="CEP"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@android:color/transparent"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/tv_or_fmt_address"
+                android:text="ou"
+                android:textColor="#e9e9e9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_below="@+id/til_base_cep_fmt_address"
+                android:layout_centerHorizontal="true"/>
+
+            <LinearLayout
+                android:id="@+id/ll_base_actual_location_fmt_address"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rounded_button_location"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:paddingRight="20dp"
+                android:layout_below="@+id/tv_or_fmt_address"
+                android:layout_centerHorizontal="true"
+                android:minHeight="57dp"
+                android:maxHeight="57dp"
+                android:layout_marginBottom="32dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_location"/>
+
+                <Button
+                    android:id="@+id/btn_location_address"
+                    android:textColor="#FFFFFF"
+                    android:text="LOCALIZAÇÃO ATUAL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:background="@android:color/transparent"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".acitivtys.bdelivery.TurnByTurnActivity">
+
+    <com.mapbox.services.android.navigation.ui.v5.NavigationView
+        android:id="@+id/navigation_view_turn_by_turn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:navigationViewBannerBackground="@color/colorPrimary"
+        app:itemTextColor="@color/colorWhite"
+        app:navigationViewRouteStyle="@color/colorPrimaryLight"
+        app:itemBackground="@color/colorPrimary"
+        app:statusBarBackground="@color/colorPrimaryLight"
+        app:navigationLightTheme="@style/NavigationViewLight"></com.mapbox.services.android.navigation.ui.v5.NavigationView>
+</RelativeLayout>

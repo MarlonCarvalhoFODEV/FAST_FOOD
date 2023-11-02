@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".acitivtys.corderProducts.OrderProductsActivity"
+    tools:showIn="@layout/activity_order_products">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_order_products"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/base_order_products"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        app:cardMaxElevation="8dp"
+        app:cardElevation="8dp"
+        android:id="@+id/base_order_products">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_start_production_order_products"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:background="@color/transparente"
+                android:elevation="0dp"
+                android:gravity="center"
+                android:text="Iniciar"
+                android:textSize="14dp"/>
+
+            <View
+                android:layout_width="0.8dp"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:background="@color/disableText" />
+
+            <Button
+                android:id="@+id/btn_finalize_production_order_products"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:background="@color/transparente"
+                android:gravity="center"
+                android:text="Finalizar"
+                android:textSize="14dp"
+                android:elevation="0dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/rl_base_progress_order_products"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/base_order_products"
+        android:background="@color/colorWhite"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"/>
+    </RelativeLayout>
+</RelativeLayout>

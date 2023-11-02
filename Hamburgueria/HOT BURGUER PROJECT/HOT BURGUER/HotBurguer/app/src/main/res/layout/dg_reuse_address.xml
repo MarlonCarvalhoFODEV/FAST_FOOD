@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:text="ENDEREÇOS SALVOS"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/cv_base_address_saveds"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_base_address_saveds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:elevation="8dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="8dp"
+        app:cardPreventCornerOverlap="true"
+        android:layout_centerInParent="true"
+        android:focusable="false">
+
+        <ListView
+            android:id="@+id/lv_reuse_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="blocksDescendants"
+            android:focusable="true"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_base_progress_dg_reuse_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:indeterminateTint="@color/colorPrimaryDark"
+                android:layout_margin="16dp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_close_dg_reuse_address"
+        android:text="X"
+        android:textSize="16dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_button_circ_white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cv_base_address_saveds"/>
+</RelativeLayout>

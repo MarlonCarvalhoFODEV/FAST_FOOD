@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_feedback_product"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        fresco:actualImageScaleType="fitCenter"
+        fresco:backgroundImage="@drawable/ic_profile"
+        fresco:fadeDuration="300"
+        fresco:failureImage="@drawable/ic_img_fail"
+        fresco:failureImageScaleType="centerInside"
+        fresco:layout_constraintBottom_toBottomOf="parent"
+        fresco:layout_constraintStart_toStartOf="parent"
+        fresco:layout_constraintTop_toTopOf="parent"
+        fresco:layout_constraintVertical_bias="0.0"
+        fresco:placeholderImage="@drawable/ic_other_img"
+        fresco:placeholderImageScaleType="fitCenter"
+        fresco:progressBarAutoRotateInterval="1000"
+        fresco:progressBarImageScaleType="centerInside"
+        fresco:retryImageScaleType="fitCenter"
+        fresco:roundAsCircle="true" />
+
+    <TextView
+        android:id="@+id/tv_user_name_feedback_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="User Name"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/sdv_feedback_product"/>
+
+    <TextView
+        android:id="@+id/tv_feedback_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:maxLines="2"
+        android:text="Comentary"
+        android:layout_toRightOf="@+id/sdv_feedback_product"
+        android:layout_below="@+id/tv_user_name_feedback_product"/>
+
+    <Button
+        android:id="@+id/btn_lead_more"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:elevation="0dp"
+        android:text="Ler mais"
+        android:textSize="12dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_feedback_product"/>
+</RelativeLayout>

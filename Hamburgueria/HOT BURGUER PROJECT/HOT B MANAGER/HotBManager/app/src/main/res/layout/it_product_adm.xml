@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:cardPreventCornerOverlap="true"
+    app:cardElevation="2dp"
+    app:cardMaxElevation="2dp"
+    app:cardUseCompatPadding="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="140dp"
+            android:layout_height="110dp"
+            android:background="@android:color/black"
+            android:src="@drawable/ic_other_img"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_title_it_product_adm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Product Name"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toTopOf="@+id/tv_categorie_it_product_adm"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_categorie_it_product_adm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="categorie"
+            android:textSize="14dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title_it_product_adm" />
+
+        <TextView
+            android:id="@+id/tv_coast_price_it_product_adm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:text="custo: R$ 0,00"
+            android:textSize="12dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/tv_categorie_it_product_adm" />
+
+        <TextView
+            android:id="@+id/tv_final_price_it_product_adm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:text="R$ 0,00"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/tv_coast_price_it_product_adm"
+            app:layout_constraintTop_toBottomOf="@+id/tv_categorie_it_product_adm" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:background="#d9d9d9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/tv_coast_price_it_product_adm" />
+
+        <EditText
+            android:id="@+id/et_title_it_product_adm"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/rounded_edit"
+            android:hint="Titulo"
+            android:inputType="textPersonName"
+            android:paddingLeft="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <EditText
+            android:id="@+id/et_description_it_product_adm"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/rounded_edit"
+            android:hint="Description"
+            android:inputType="text"
+            android:paddingLeft="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_title_it_product_adm" />
+
+        <EditText
+            android:id="@+id/et_recipe_it_product_adm"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/rounded_edit"
+            android:hint="Receita"
+            android:inputType="text"
+            android:paddingLeft="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_description_it_product_adm" />
+
+        <EditText
+            android:id="@+id/et_url_it_product_adm"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/rounded_edit"
+            android:hint="Food Porn URL"
+            android:inputType="text"
+            android:paddingLeft="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_recipe_it_product_adm" />
+
+        <EditText
+            android:id="@+id/et_coast_price_it_product_adm"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rounded_edit"
+            android:hint="Coast Price"
+            android:inputType="numberDecimal"
+            android:paddingLeft="16dp"
+            app:layout_constraintEnd_toStartOf="@+id/et_fee_deliveryman_it_product_adm"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_url_it_product_adm" />
+
+        <EditText
+            android:id="@+id/et_fee_deliveryman_it_product_adm"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/rounded_edit"
+            android:hint="Taxa d/ Entregador"
+            android:inputType="numberDecimal"
+            android:paddingLeft="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/et_coast_price_it_product_adm"
+            app:layout_constraintTop_toBottomOf="@+id/et_url_it_product_adm" />
+
+        <EditText
+            android:id="@+id/et_comission_it_product_adm"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/rounded_edit"
+            android:hint="Comissão"
+            android:inputType="numberDecimal"
+            android:paddingLeft="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/et_qt_stock_it_product_adm"
+            app:layout_constraintTop_toBottomOf="@+id/et_fee_deliveryman_it_product_adm" />
+
+        <EditText
+            android:id="@+id/et_qt_stock_it_product_adm"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rounded_edit"
+            android:hint="Qt em Estoque"
+            android:inputType="numberDecimal"
+            android:paddingLeft="16dp"
+            app:layout_constraintEnd_toStartOf="@+id/et_comission_it_product_adm"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_coast_price_it_product_adm" />
+
+        <CheckBox
+            android:id="@+id/cb_combo_it_product_adm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="combo"
+            app:layout_constraintEnd_toStartOf="@+id/cb_tangible_it_product_adm"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_qt_stock_it_product_adm" />
+
+        <CheckBox
+            android:id="@+id/cb_tangible_it_product_adm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="tangivel"
+            app:layout_constraintEnd_toStartOf="@+id/cb_active_it_product_adm"
+            app:layout_constraintStart_toEndOf="@+id/cb_combo_it_product_adm"
+            app:layout_constraintTop_toBottomOf="@+id/et_qt_stock_it_product_adm" />
+
+        <CheckBox
+            android:id="@+id/cb_active_it_product_adm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="ativar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cb_tangible_it_product_adm"
+            app:layout_constraintTop_toBottomOf="@+id/et_qt_stock_it_product_adm" />
+
+        <Button
+            android:id="@+id/btn_cancel_it_product_adm"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_button_line"
+            android:text="Cancelar"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_save_it_product_adm"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cb_tangible_it_product_adm" />
+
+        <Button
+            android:id="@+id/btn_save_it_product_adm"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_button"
+            android:text="Salvar"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_cancel_it_product_adm"
+            app:layout_constraintTop_toBottomOf="@+id/cb_tangible_it_product_adm" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

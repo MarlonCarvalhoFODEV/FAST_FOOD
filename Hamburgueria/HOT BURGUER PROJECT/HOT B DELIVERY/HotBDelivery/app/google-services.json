@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "684823941406",
+    "firebase_url": "https://hot-b-delivery.firebaseio.com",
+    "project_id": "hot-b-delivery",
+    "storage_bucket": "hot-b-delivery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684823941406:android:108340f558f5408aa7b90f",
+        "android_client_info": {
+          "package_name": "br.com.hotbdelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684823941406-p30i19hj3h457c2t2b5naerpi2ftdkli.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.hotbdelivery",
+            "certificate_hash": "a09c96c788c38fe64201bdbd233beb6044a452b1"
+          }
+        },
+        {
+          "client_id": "684823941406-a7bnrbgviu4jl8rfc72dbok6dlm7ng4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVCTcl_6kdZwtWkvzTwdmkJ0xwZvD6Tmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684823941406-a7bnrbgviu4jl8rfc72dbok6dlm7ng4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

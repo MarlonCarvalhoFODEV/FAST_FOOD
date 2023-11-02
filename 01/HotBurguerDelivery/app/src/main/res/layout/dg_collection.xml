@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="30dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="2dp"
+    app:cardMaxElevation="2dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_client_inf"
+            android:text="Trajeto Concluido "
+            android:textSize="20dp"
+            android:textColor="@color/mapbox_navigation_view_color_progress_background_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/tv_client_name_dg"
+            android:text="Name "
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/tv_client_inf"/>
+
+        <TextView
+            android:id="@+id/tv_cel_name_dg"
+            android:text="Cel "
+            android:textSize="15dp"
+            android:textColor="@color/colorTbTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/tv_client_name_dg"/>
+
+        <TextView
+            android:id="@+id/tv_value_dg"
+            android:text="Valor "
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/tv_cel_name_dg"/>
+
+        <TextView
+            android:id="@+id/tv_street_dg"
+            android:text="Rua "
+            android:textSize="15dp"
+            android:textColor="@color/colorBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/tv_value_dg"/>
+
+        <TextView
+            android:id="@+id/tv_complement_dg"
+            android:text="Complemento "
+            android:textSize="15dp"
+            android:textColor="@color/colorBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/tv_street_dg"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btn_delivery_finalized"
+            android:text="Entrega Finalizada"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tv_complement_dg"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="5dp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

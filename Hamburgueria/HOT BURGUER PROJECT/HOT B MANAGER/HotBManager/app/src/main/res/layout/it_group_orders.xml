@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:id="@+id/base_it_group_order">
+
+    <TextView
+        android:id="@+id/tv_count_it_order"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/colorPrimaryDark"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:text="Pedidos"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="+ Novos Pedidos"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_count_it_order"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_toRightOf="@+id/tv_count_it_order"/>
+
+    <TextView
+        android:id="@+id/tv_cod_it_group_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="COD. 35784"
+        android:textColor="#000000"
+        android:visibility="visible"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/tv_client_name_it_group_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Client Name"
+        android:textColor="#000000"
+        android:visibility="gone"
+        android:layout_toRightOf="@+id/tv_count_it_order"
+        android:layout_below="@+id/textView"
+        android:cursorVisible="false"/>
+
+    <TextView
+        android:id="@+id/tv_distance_it_group_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="0km"
+        android:textColor="#000000"
+        android:visibility="visible"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv_cod_it_group_order"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#DDDDDD"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

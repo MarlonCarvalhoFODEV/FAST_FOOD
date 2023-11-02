@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Hot Burguer</string>
+
+    <string name="onesignal_app_id">98c46fd1-2bd2-4226-bd83-480ec194b796</string>
+    <string name="firebase_web_api">AIzaSyCmQEGC1skU5Hl7jQAhTqDeHgXkUY64gv8</string>
+    <string name="firebase_app_id">859289562353</string>
+    <string name="google_sign_client_id">859289562353-8ruhhthmptamukiuc7094b3itubo6275.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">4381205721953138</string>
+    <string name="fb_login_protocol_scheme">fb4381205721953138</string>
+
+    <string name="sp_db">request_data</string>
+
+    <!--<string name="domain_connection">http://192.168.0.3:8080/</string>-->
+    <!--<string name="domain_connection">http://192.168.0.3:8080/AppMobile/</string>-->
+    <string name="domain_connection">https://comprazencasa.com.br/AppMobile/</string>
+     <string name="domain_connection_user">Hot.Burguer</string>
+     <string name="domain_connection_authorization">d44a153913397cfcb81912299dfeb9a9</string>
+
+     <!-- Strings used for fragments for navigation -->
+
+    <string name="title_activity_home_burguer"></string>
+
+    <string name="comprazencasa">MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAhab4/B4zagUl2n2GqrhkfP+y/vR0WLZ/vJKceG8eXiqLSDDFKPtMdm1b2uX5VdiCzPNY3LhfS/mCq6FY5pkJ8IBZ3X4AVjKypx8LXOPS+q85onP+CTCNt+xvktcQKYEmd9QZB8a+oYAXgzH+q7Z95KzlG4rFNcpxU0HdG9Yz9idd8k0TT8hSxGrzLeDLzOrzhKjcRoQbHiP2T9ho/yw1ILBBN62etxw7y/vTCH1OhGdP18drnN0Z3uWvaLf+jyR9L4dfgwbRq51QicyhY4zT1t6t1iA9hTztZfEycwZEjQeGmqkYcHxgYmfbr8yYyFJYyoK7WyAOVsFTXJL01v4vbN4Mr467hzgYY/2Kc9xqkE8f2nxDN8q0xHVx+ZDem6ofJG2cdQR80s4TzI0/4t7mJR4NpKY/NWt7mWR3l+J9hwi1pFVd0f09ZXr6Ia+AytUEUj+QlHOp7MZ0rBip5x5AF3W0AgdwVueLh1s/+ntbIfVvQOiXQHDFaStbQjtSxlBeDw56YmGXkp63ComARo0KuJawyjXgkWgvwTXNBnhHG5ukdmEO/Uu0TLuTmGEgLuG1q2q/ZucxpvwNl0AAlLigNM8wemfPGIGgEO3JrHPKd7PlDVIisD+h3u+68SU9lSaT0QHr1zR5Ars30iPv13i5HiUXx4elPZKHlBuYIdU1Dq0CAwEAAQ==</string>
+    <string name="payment">MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAhsA6HtIIW38MDcCNfltI5bC+DTZ+K39AC53VwJxq3fRu6MtY3TZ/A65N/PT+QD5+vZ1mAhiVyMklOsRIw6LLzZfpUTL6Hqx0Zqe2PrXi/0l2ovWKGVp2WQgYhnPJJ+STPBOIaKyufs/8PU/VvJyk1mRdzjBM6l4Wnj0KRHgIabOYFHAQRNMRA19+LyjrW8HeBC4FF95JsJAs3u4+gG1VaYzZLsUEr22URdSSZ1/S+YjiE5awK4mfXK9a3ZfXwU1zdf2eOsJYTSPBHP+Xal+Zjz87RfGWeamTI+nyGAEW3isBKGoMuB8eJSowgPsUzNoD0QhhonHBjJjMOk3dRYZbrqyMrf4IcQPc1hMwOA1lNPnW96IroMdr2xaXmlLDiPYdog6IQeW/ZKTsgBwlQ1pUAF5/06GZFGL834JvdByfJBdVDFyBu85046MXprrlS+BGVdDi51KwJ65J0ztG0zZ93eO7kkoQTrNzrXWH7L0cjWABjg3xdPuFB0YG3idSKClZgL29rWFkjVXzjf92ak9KCDGQGX5h0BD8mNJ2jQXEr12anW9qMFtlUlNaL7Qgd0QhCq1P5/oHQ3UpL81syKi5DFG9Jab8yCLGy36qxXWLdW3AytlqJR4Ba8AR/XaVkS3Ls9mAFvPsCoqGpg0Ophawpxrsz7ZfUMHZfhpqtoSCuvkCAwEAAQ==</string>
+    <string-array name="countrys">
+        <item>Brazil</item>
+    </string-array>
+
+    <string-array name="states">
+        <item>Selecione um Estado</item>
+    </string-array>
+
+    <string-array name="citys">
+        <item>Selecione sua cidade</item>
+    </string-array>
+
+    <string-array name="Neighborhoods">
+        <item>Qual o seu bairro</item>
+    </string-array>
+    <string name="title_activity_track_order">TrackOrderActivity</string>
+
+</resources>

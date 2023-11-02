@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/FMT_Home"
+        android:icon="@drawable/ic_prompt_delivery"
+        android:title="Início" />
+
+    <item
+        android:id="@+id/FMT_OrdersForDelivery"
+        android:icon="@drawable/ic_packaged"
+        android:title="Pronta Entrega" />
+
+    <item
+        android:id="@+id/FMT_Deliveryman"
+        android:icon="@drawable/ic_motocycle"
+        android:title="Entregadores" />
+
+    <item
+        android:id="@+id/FMT_Configuration"
+        android:icon="@drawable/ic_config"
+        android:title="Configurações" />
+</menu>

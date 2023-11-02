@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:padding="8dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_it_product_order"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_profile"
+        app:roundingBorderWidth="0.8dp"
+        app:roundingBorderColor="#a9a9a9"
+        app:roundAsCircle="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_name_it_deliveryman"
+        android:text="Deliveryman Name"
+        android:textSize="18dp"
+        android:textColor="#494949"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/sdv_it_product_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/btn_send_message_it_deliveryman_active"
+        android:text="MSG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

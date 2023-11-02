@@ -1,0 +1,238 @@
+<resources>
+    <string name="app_name">Hot Delivery</string>
+    <string name="comprazencasa">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxSjUEX8jmJkWFVNsmSJdzhUztdZDk1tczliAQsQ0UhXobu9jP1u4k1krKcJt1uwhOlidhDRC0u/9dRnWx2/NMuMWV1NgerAnS4FFZxkIJUOAtT2Z4IpuZc3KCAzADsztclga14PPcYVF7RDaCaeLtuSGtYAEtM26KIgQQcNQ3VjkChSGRGVixEg5VUUkwtNk60FHKy7ugfu0Dpk5KL9py1/a1DkDckJK6xZml9ilVfi9DxiyOu+vuZPj9VKXd9BhodXRguVS3bTYNFnP0UkYGalB7NIHjNLg2ira8mxCDWwa4vQpJgofmNt3KQSex0aMBM3gaDh3aBI4g7fbaxeLHwIDAQAB</string>
+    <string name="rsabig">MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAhab4/B4zagUl2n2GqrhkfP+y/vR0WLZ/vJKceG8eXiqLSDDFKPtMdm1b2uX5VdiCzPNY3LhfS/mCq6FY5pkJ8IBZ3X4AVjKypx8LXOPS+q85onP+CTCNt+xvktcQKYEmd9QZB8a+oYAXgzH+q7Z95KzlG4rFNcpxU0HdG9Yz9idd8k0TT8hSxGrzLeDLzOrzhKjcRoQbHiP2T9ho/yw1ILBBN62etxw7y/vTCH1OhGdP18drnN0Z3uWvaLf+jyR9L4dfgwbRq51QicyhY4zT1t6t1iA9hTztZfEycwZEjQeGmqkYcHxgYmfbr8yYyFJYyoK7WyAOVsFTXJL01v4vbN4Mr467hzgYY/2Kc9xqkE8f2nxDN8q0xHVx+ZDem6ofJG2cdQR80s4TzI0/4t7mJR4NpKY/NWt7mWR3l+J9hwi1pFVd0f09ZXr6Ia+AytUEUj+QlHOp7MZ0rBip5x5AF3W0AgdwVueLh1s/+ntbIfVvQOiXQHDFaStbQjtSxlBeDw56YmGXkp63ComARo0KuJawyjXgkWgvwTXNBnhHG5ukdmEO/Uu0TLuTmGEgLuG1q2q/ZucxpvwNl0AAlLigNM8wemfPGIGgEO3JrHPKd7PlDVIisD+h3u+68SU9lSaT0QHr1zR5Ars30iPv13i5HiUXx4elPZKHlBuYIdU1Dq0CAwEAAQ==</string>
+
+    <string name="onesignal_app_id">98c46fd1-2bd2-4226-bd83-480ec194b796</string>
+    <string name="firebase_web_api">AIzaSyCmQEGC1skU5Hl7jQAhTqDeHgXkUY64gv8</string>
+    <string name="firebase_app_id">859289562353</string>
+    <string name="google_sign_client_id">859289562353-8ruhhthmptamukiuc7094b3itubo6275.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">898656280670646</string>
+    <string name="fb_login_protocol_scheme">fb898656280670646</string>
+
+    <!--<string name="domain_connection">http://192.168.0.3:8080/</string>-->
+    <string name="domain_connection">https://comprazencasa.com.br/AppMobile/</string>
+
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="sp_db">request_data</string>
+
+    <string-array name="banks">
+        <item>BCO DO BRASIL S.A.	001</item>
+        <item>BRB – BCO DE BRASILIA S.A.	070</item>
+        <item>AGK CC S.A.	272</item>
+        <item>CONF NAC COOP CENTRAIS UNICRED	136</item>
+        <item>CAIXA ECONOMICA FEDERAL	104</item>
+        <item>BANCO INTER	077</item>
+        <item>BCO RIBEIRAO PRETO S.A.	741</item>
+        <item>BCO CETELEM S.A.	739</item>
+        <item>BANCO SEMEAR	743</item>
+        <item>PLANNER CV S.A.	100</item>
+        <item>BCO B3 S.A.	096</item>
+        <item>BCO RABOBANK INTL BRASIL S.A.	747</item>
+        <item>BCO COOPERATIVO SICREDI S.A.	748</item>
+        <item>BCO BNP PARIBAS BRASIL S A	752</item>
+        <item>CCCM UNICRED CENTRAL RS	091</item>
+        <item>KIRTON BANK	399</item>
+        <item>PORTOCRED S.A. – CFI	108</item>
+        <item>BANCOOB	756</item>
+        <item>BCO KEB HANA DO BRASIL S.A.	757</item>
+        <item>XP INVESTIMENTOS CCTVM S/A	102</item>
+        <item>UNIPRIME NORTE DO PARANÁ – CC	084</item>
+        <item>CM CAPITAL MARKETS CCTVM LTDA	180</item>
+        <item>BCO MORGAN STANLEY S.A.	066</item>
+        <item>UBS BRASIL CCTVM S.A.	015</item>
+        <item>TREVISO CC S.A.	143</item>
+        <item>HIPERCARD BM S.A.	062</item>
+        <item>BCO. J.SAFRA S.A.	074</item>
+        <item>UNIPRIME CENTRAL CCC LTDA.	099</item>
+        <item>BCO ALFA S.A.	025</item>
+        <item>PI DTVM S.A.	315</item>
+        <item>BCO ABN AMRO S.A.	075</item>
+        <item>BCO CARGILL S.A.	040</item>
+        <item>TERRA INVESTIMENTOS DTVM	307</item>
+        <item>SERVICOOP	190</item>
+        <item>VISION S.A. CC	296</item>
+        <item>BANCO BRADESCARD	063</item>
+        <item>NOVA FUTURA CTVM LTDA.	191</item>
+        <item>GOLDMAN SACHS DO BRASIL BM S.A	064</item>
+        <item>CCC NOROESTE BRASILEIRO LTDA.	097</item>
+        <item>CCM DESP TRÂNS SC E RS	016</item>
+        <item>SOROCRED CFI S.A.	299</item>
+        <item>BANCO INBURSA	12</item>
+        <item>BCO DA AMAZONIA S.A.	003</item>
+        <item>CONFIDENCE CC S.A.	060</item>
+        <item>BCO DO EST. DO PA S.A.	037</item>
+        <item>CASA CREDITO S.A. SCM	159</item>
+        <item>ALBATROSS CCV S.A	172</item>
+        <item>COOP CENTRAL AILOS	085</item>
+        <item>CENTRAL COOPERATIVA DE CRÉDITO NO	114</item>
+        <item>BCO BBI S.A.	036</item>
+        <item>BCO BRADESCO FINANC. S.A.	394</item>
+        <item>BCO DO NORDESTE DO BRASIL S.A.	004</item>
+        <item>BCO CCB BRASIL S.A.	320</item>
+        <item>HS FINANCEIRA	189</item>
+        <item>LECCA CFI S.A.	105</item>
+        <item>BCO KDB BRASIL S.A.	076</item>
+        <item>BANCO TOPÁZIO S.A.	082</item>
+        <item>CCR DE OURO	286</item>
+        <item>PÓLOCRED SCMEPP LTDA.	093</item>
+        <item>CCR DE SÃO MIGUEL DO OESTE	273</item>
+        <item>PAGSEGURO	290</item>
+        <item>ICAP DO BRASIL CTVM LTDA.	157</item>
+        <item>SOCRED S.A. SCM	183</item>
+        <item>STATE STREET BR S.A. BCO COMERCIAL	014</item>
+        <item>CARUANA SCFI	130</item>
+        <item>CODEPE CVC S.A.	127</item>
+        <item>BCO ORIGINAL DO AGRO S/A	079</item>
+        <item>BANCOSEGURO S.A.	081</item>
+        <item>CRESOL CONFEDERAÇÃO	133</item>
+        <item>BCO AGIBANK S.A.	121</item>
+        <item>BCO DA CHINA BRASIL S.A.	083</item>
+        <item>GET MONEY CC LTDA	138</item>
+        <item>BCO BANDEPE S.A.	024</item>
+        <item>OM DTVM LTDA	319</item>
+        <item>TRAVELEX BANCO DE CÂMBIO S.A.	095</item>
+        <item>BANCO FINAXIS	94</item>
+        <item>STANDARD CHARTERED BI S.A.	118</item>
+        <item>SENFF S.A. – CFI	276</item>
+        <item>BRK S.A. CFI	92</item>
+        <item>BCO DO EST. DE SE S.A.	047</item>
+        <item>BEXS BCO DE CAMBIO S.A.	144</item>
+        <item>BR PARTNERS BI	126</item>
+        <item>BPP IP S.A.	301</item>
+        <item>BRL TRUST DTVM SA	173</item>
+        <item>BCO WESTERN UNION	119</item>
+        <item>CAMBIONET CC LTDA	309</item>
+        <item>PARANA BCO S.A.	254</item>
+        <item>BARIGUI CH	268</item>
+        <item>BCO BOCOM BBM S.A.	107</item>
+        <item>BCO CAPITAL S.A.	412</item>
+        <item>BCO WOORI BANK DO BRASIL S.A.	124</item>
+        <item>FACTA S.A. CFI	149</item>
+        <item>STONE PAGAMENTOS S.A.	197</item>
+        <item>BROKER BRASIL CC LTDA.	142</item>
+        <item>BCO MERCANTIL DO BRASIL S.A.	389</item>
+        <item>BCO ITAÚ BBA S.A.	184</item>
+        <item>BCO TRIANGULO S.A.	634</item>
+        <item>SENSO CCVM S.A.	545</item>
+        <item>ICBC DO BRASIL BM S.A.	132</item>
+        <item>VIPS CC LTDA.	298</item>
+        <item>NU PAGAMENTOS S.A. (Nubank)	260</item>
+        <item>UBS BRASIL BI S.A.	129</item>
+        <item>MS BANK S.A. BCO DE CÂMBIO	128</item>
+        <item>PARMETAL DTVM LTDA	194</item>
+        <item>VORTX DTVM LTDA.	310</item>
+        <item>COMMERZBANK BRASIL S.A. – BCO MÚLTIPLO	163</item>
+        <item>AVISTA S.A. CFI	280</item>
+        <item>GUITTA CC LTDA	146</item>
+        <item>CCR DE PRIMAVERA DO LESTE	279</item>
+        <item>DACASA FINANCEIRA S/A – SCFI	182</item>
+        <item>GENIAL INVESTIMENTOS CVM S.A.	278</item>
+        <item>IB CCTVM LTDA	271</item>
+        <item>BCO BANESTES S.A.	021</item>
+        <item>BCO ABC BRASIL S.A.	246</item>
+        <item>BS2 DTVM S.A.	292</item>
+        <item>SCOTIABANK BRASIL	751</item>
+        <item>BANCO BTG PACTUAL S.A.	208</item>
+        <item>BCO MODAL S.A.	746</item>
+        <item>BCO CLASSICO S.A.	241</item>
+        <item>BCO C6 S.A.	336</item>
+        <item>BCO GUANABARA S.A.	612</item>
+        <item>BCO INDUSTRIAL DO BRASIL S.A.	604</item>
+        <item>BCO CREDIT SUISSE (BRL) S.A.	505</item>
+        <item>FAIR CC S.A.	196</item>
+        <item>BCO LA NACION ARGENTINA	300</item>
+        <item>CITIBANK N.A.	477</item>
+        <item>BCO CEDULA S.A.	266</item>
+        <item>BCO BRADESCO BERJ S.A.	122</item>
+        <item>BCO J.P. MORGAN S.A.	376</item>
+        <item>BCO CAIXA GERAL BRASIL S.A.	473</item>
+        <item>BCO CITIBANK S.A.	745</item>
+        <item>BCO RODOBENS S.A.	120</item>
+        <item>BCO FATOR S.A.	265</item>
+        <item>BNDES	7</item>
+        <item>ATIVA S.A. INVESTIMENTOS CCTVM	188</item>
+        <item>BGC LIQUIDEZ DTVM LTDA	134</item>
+        <item>BCO ALVORADA S.A.	641</item>
+        <item>BANCO ITAÚ CONSIGNADO S.A.	029</item>
+        <item>BCO MÁXIMA S.A.	243</item>
+        <item>HAITONG BI DO BRASIL S.A.	078</item>
+        <item>OLIVEIRA TRUST DTVM S.A.	111</item>
+        <item>PORTOPAR DTVM LTDA	306</item>
+        <item>BNY MELLON BCO S.A.	017</item>
+        <item>PERNAMBUCANAS FINANC S.A. CFI	174</item>
+        <item>BCO LA PROVINCIA B AIRES BCE	495</item>
+        <item>BRASIL PLURAL S.A. BCO.	125</item>
+        <item>JPMORGAN CHASE BANK	488</item>
+        <item>BCO ANDBANK S.A.	065</item>
+        <item>ING BANK N.V.	492</item>
+        <item>LEVYCAM CCV LTDA	145</item>
+        <item>BCV	250</item>
+        <item>BCO REP ORIENTAL URUGUAY BCE	494</item>
+        <item>BEXS CC S.A.	253</item>
+        <item>HSBC BANCO DE INVESTIMENTO	269</item>
+        <item>BCO ARBI S.A.	213</item>
+        <item>INTESA SANPAOLO BRASIL S.A. BM	139</item>
+        <item>BCO TRICURY S.A.	018</item>
+        <item>BCO SAFRA S.A.	422</item>
+        <item>BCO INTERCAP S.A.	630</item>
+        <item>BCO FIBRA S.A.	224</item>
+        <item>BCO LUSO BRASILEIRO S.A.	600</item>
+        <item>BANCO PAN	623</item>
+        <item>BCO BRADESCO CARTOES S.A.	204</item>
+        <item>BCO VOTORANTIM S.A.	655</item>
+        <item>BCO ITAUBANK S.A.	479</item>
+        <item>BCO MUFG BRASIL S.A.	456</item>
+        <item>BCO SUMITOMO MITSUI BRASIL S.A.	464</item>
+        <item>ITAÚ UNIBANCO S.A.	341</item>
+        <item>BCO BRADESCO S.A.	237</item>
+        <item>OMNI BANCO S.A.	613</item>
+        <item>ITAÚ UNIBANCO HOLDING S.A.	652</item>
+        <item>BCO SOFISA S.A.	637</item>
+        <item>BCO INDUSVAL S.A.	653</item>
+        <item>BCO CREFISA S.A.	69</item>
+        <item>BCO MIZUHO S.A.	370</item>
+        <item>BANCO INVESTCRED UNIBANCO S.A.	249</item>
+        <item>BCO BMG S.A.	318</item>
+        <item>BCO FICSA S.A.	626</item>
+        <item>SAGITUR CC LTDA	270</item>
+        <item>BCO SOCIETE GENERALE BRASIL	366</item>
+        <item>MAGLIANO S.A. CCVM	113</item>
+        <item>TULLETT PREBON BRASIL CVC LTDA	131</item>
+        <item>C.SUISSE HEDGING-GRIFFO CV S/A	11</item>
+        <item>BCO PAULISTA S.A.	611</item>
+        <item>BOFA MERRILL LYNCH BM S.A.	755</item>
+        <item>CCR REG MOGIANA	089</item>
+        <item>BCO PINE S.A.	643</item>
+        <item>EASYNVEST – TÍTULO CV SA	140</item>
+        <item>BCO DAYCOVAL S.A	707</item>
+        <item>CAROL DTVM LTDA.	288</item>
+        <item>RENASCENCA DTVM LTDA	101</item>
+        <item>DEUTSCHE BANK S.A.BCO ALEMAO	487</item>
+        <item>BANCO CIFRA	233</item>
+        <item>GUIDE	177</item>
+        <item>BCO RENDIMENTO S.A.	633</item>
+        <item>BCO BS2 S.A.	218</item>
+        <item>BCO OLÉ BONSUCESSO CONSIGNADO S.A.	169</item>
+        <item>LASTRO RDV DTVM LTDA	293</item>
+        <item>FRENTE CC LTDA.	285</item>
+        <item>B&amp;T CC LTDA.	080</item>
+        <item>NOVO BCO CONTINENTAL S.A. – BM	753</item>
+        <item>BCO CRÉDIT AGRICOLE BR S.A.	222</item>
+        <item>CCR COOPAVEL	281</item>
+        <item>BANCO SISTEMA	754</item>
+        <item>CREDIALIANÇA CCR	098</item>
+        <item>BCO VR S.A.	610</item>
+        <item>BCO OURINVEST S.A.	712</item>
+        <item>CREDICOAMO	010</item>
+        <item>RB CAPITAL INVESTIMENTOS DTVM LTDA.	283</item>
+        <item>BCO SANTANDER (BRASIL) S.A.	033</item>
+        <item>BANCO JOHN DEERE S.A.	217</item>
+        <item>BCO DO ESTADO DO RS S.A.	041</item>
+        <item>ADVANCED CC LTDA	117</item>
+        <item>BCO A.J. RENNER S.A.	654</item>
+        <item>BANCO ORIGINAL	212</item>
+        <item>DECYSEO CC LTDA.	289</item>
+    </string-array>
+</resources>

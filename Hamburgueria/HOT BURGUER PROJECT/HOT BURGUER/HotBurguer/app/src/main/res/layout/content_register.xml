@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_register"
+    tools:context=".activitys.a2_register.RegisterActivity"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp">
+
+    <TextView
+        android:text="Login"
+        android:textSize="22dp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="42dp"
+        android:layout_above="@+id/btn_google_sign"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btn_google_sign"
+        android:text="Entrar"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_centerInParent="true"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/btn_facebook_sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:paddingLeft="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/btn_google_sign"/>
+
+    <TextView
+        android:id="@+id/tv_terms_and_politics_text"
+        android:text="Termos e Politicas de Privacidade "
+        android:textColor="#B0FFFFFF"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/btn_facebook_sign"/>
+
+    <TextView
+        android:id="@+id/tv_terms_and_politics"
+        android:text="Saiba mais "
+        android:textColor="#00BCD4"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:layout_below="@+id/tv_terms_and_politics_text"/>
+
+    <TextView
+        android:text="© Copyright - Todos os Direitos Reservados"
+        android:textSize="10dp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+</RelativeLayout>

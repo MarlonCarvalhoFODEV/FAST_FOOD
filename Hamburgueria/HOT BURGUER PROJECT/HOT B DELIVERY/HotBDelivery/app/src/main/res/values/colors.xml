@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryLight">#7E000000</color>
+    <color name="colorPrimaryDark">#F1592A</color>
+    <color name="colorPrimaryDarkDouble">#CD4C24</color>
+    <color name="colorAccent">#019589</color>
+    <color name="colorTransparent">@android:color/transparent</color>
+    <color name="success">#00C07F</color>
+    <color name="padding">#00C07F</color>
+    <color name="failed">#FF6563</color>
+
+    <color name="colorGrayLight">#BABABA</color>
+    <color name="colorGrayDoubleLight">#DDDDDD</color>
+
+    <color name="colorRatingGold">#EDA704</color>
+    <color name="colorRatingGoldLight">#F4E2B7</color>
+
+
+</resources>

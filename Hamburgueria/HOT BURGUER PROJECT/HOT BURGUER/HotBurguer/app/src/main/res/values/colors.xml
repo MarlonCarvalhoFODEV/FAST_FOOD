@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryLight">#FDB19A</color>
+    <color name="colorPrimaryDark">#F1592A</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorDot">#C10000</color>
+    <color name="colorDotSelected">#FF5E5E</color>
+    <color name="colorPay">#7CD063</color>
+
+    <color name="checkoutSuccessPressed">#42CE68</color>
+    <color name="checkoutSuccessStandby">#39AA57</color>
+    <color name="checkoutSuccess">#42CE68</color>
+    <color name="checkoutPending">#ffa600</color>
+    <color name="checkoutProcessing">#ffa600</color>
+    <color name="checkoutChargeback">#3383FA</color>
+    <color name="checkoutRefused">#f44336</color>
+    <color name="checkoutRefunded">#f44336</color>
+    <color name="checkoutPendingRefund">#ffa600</color>
+    <color name="checkoutAuthorized">#42CE68</color>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="30dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="2dp"
+    app:cardMaxElevation="2dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_title_add_p"
+            android:text="Ativar produto"
+            android:textSize="20dp"
+            android:textColor="@color/mapbox_navigation_view_color_progress_background_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"/>
+
+        <CheckBox
+            android:id="@+id/cb_check_activate"
+            android:layout_toRightOf="@+id/tv_title_add_p"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.PopupOverlay"
+            android:checked="true"/>
+
+        <EditText
+            android:id="@+id/et_flavor_add_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title_add_p"
+            android:layout_margin="10dp"
+            android:hint="Sabores separados por vírgula(,)"/>
+
+        <EditText
+            android:id="@+id/et_price_add_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_flavor_add_p"
+            android:layout_margin="10dp"
+            android:hint="Novo Preço"/>
+
+        <Button
+            android:id="@+id/btn_save_product"
+            android:text="Ativar e Atualizar"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/et_price_add_p"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="5dp"
+            />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

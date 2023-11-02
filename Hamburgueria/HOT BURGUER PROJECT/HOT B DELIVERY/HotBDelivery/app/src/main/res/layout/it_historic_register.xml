@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cons_base"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.001">
+
+        <TextView
+            android:id="@+id/tv_first_letter_day_historic"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="D"
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tv_day_name_historic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_day_name_historic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="DayName"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_first_letter_day_historic"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.25"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tv_first_letter_day_historic"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_count_delivered_historic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="0 Entregas"
+            android:textSize="12sp"
+            android:layout_toRightOf="@+id/tv_first_letter_day_historic"
+            android:layout_below="@+id/tv_day_name_historic"/>
+
+        <TextView
+            android:id="@+id/tv_amount_historic_delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="R$ 0,00"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/tv_month_it_historic_register"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/tv_month_it_historic_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/rounded_decoration_orange"
+            android:text="Janeiro"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_alignParentRight="true"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="#e9e9e9"
+            android:layout_below="@+id/tv_first_letter_day_historic"
+            android:layout_marginStart="32dp"/>
+    </RelativeLayout>
+</LinearLayout>

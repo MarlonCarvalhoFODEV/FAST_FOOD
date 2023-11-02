@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.a4_running.RunningActivity">
+
+    <com.mapbox.services.android.navigation.ui.v5.NavigationView
+        android:id="@+id/navigation_view_turn_by_turn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:itemTextColor="@android:color/white"
+        app:navigationViewRouteStyle="@color/colorPrimaryLight"
+        app:itemBackground="@color/colorPrimary"
+        app:statusBarBackground="@color/colorPrimaryLight"></com.mapbox.services.android.navigation.ui.v5.NavigationView>
+
+    <FrameLayout
+        android:id="@+id/fl_progress_running"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AE000000"
+        android:elevation="7dp"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:indeterminateTint="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="75dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        app:srcCompat="@drawable/ic_notify"
+        app:fabSize="mini"
+        android:visibility="gone"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

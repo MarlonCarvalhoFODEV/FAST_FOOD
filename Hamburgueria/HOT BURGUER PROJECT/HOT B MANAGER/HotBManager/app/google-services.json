@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "635138062727",
+    "firebase_url": "https://hot-burguer-manager.firebaseio.com",
+    "project_id": "hot-burguer-manager",
+    "storage_bucket": "hot-burguer-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635138062727:android:2904b92f3d87a01800fb22",
+        "android_client_info": {
+          "package_name": "br.com.hotbmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635138062727-vflkupfa2kvifqqfc8gaen9coiv370gm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.hotbmanager",
+            "certificate_hash": "a09c96c788c38fe64201bdbd233beb6044a452b1"
+          }
+        },
+        {
+          "client_id": "635138062727-reml67bdup9rae9om42jujbhar7t91eo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjd5PWYkimI93K7W3krOi7Zj10NUlwwA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635138062727-reml67bdup9rae9om42jujbhar7t91eo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

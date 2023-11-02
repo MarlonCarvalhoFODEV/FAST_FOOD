@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "859289562353",
+    "firebase_url": "https://hot-burguer-18820.firebaseio.com",
+    "project_id": "hot-burguer-18820",
+    "storage_bucket": "hot-burguer-18820.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859289562353:android:03688ca1df94d851974d50",
+        "android_client_info": {
+          "package_name": "com.hotburguer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859289562353-f4m99pj5kphj7lam1eeu4d3m8btadg14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hotburguer",
+            "certificate_hash": "89cf37dac4c31352aa4fde7d83c0d02596329ebe"
+          }
+        },
+        {
+          "client_id": "859289562353-q35n20715l93b72pksg8op0vsru0nunv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hotburguer",
+            "certificate_hash": "a09c96c788c38fe64201bdbd233beb6044a452b1"
+          }
+        },
+        {
+          "client_id": "859289562353-ckdj4ergaalhbflfml1o2k7pq2smsgvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmQEGC1skU5Hl7jQAhTqDeHgXkUY64gv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859289562353-8ruhhthmptamukiuc7094b3itubo6275.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

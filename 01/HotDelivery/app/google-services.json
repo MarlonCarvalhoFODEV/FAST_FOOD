@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "911588448297",
+    "firebase_url": "https://hot-delivery-d2b25.firebaseio.com",
+    "project_id": "hot-delivery-d2b25",
+    "storage_bucket": "hot-delivery-d2b25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911588448297:android:c9a948b24c2d687555e438",
+        "android_client_info": {
+          "package_name": "com.hotdelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911588448297-tfnt1nicom0nrh1m58lte8o4otn85ard.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hotdelivery",
+            "certificate_hash": "a09c96c788c38fe64201bdbd233beb6044a452b1"
+          }
+        },
+        {
+          "client_id": "911588448297-s2v2tood9ajlbo7tai3ifpgnlsiotfdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDngo0XSCoQZQx-F2xf2rgOZTOcyDfkIDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911588448297-s2v2tood9ajlbo7tai3ifpgnlsiotfdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

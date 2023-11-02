@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.dashboard.profile.FMT_Profile">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swip_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+             <!--   <View
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:elevation="4dp"
+                    android:background="@color/colorPrimary"
+                    android:visibility="gone"/>-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="32dp"
+                    android:elevation="4dp">
+
+               <!--     <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/civ_photo_profile_config"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:src="@drawable/ic_photo_profile"
+                        android:elevation="2dp"
+                        android:visibility="gone" />-->
+
+        <!--            <TextView
+                        android:id="@+id/tv_user_name_config"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@+id/civ_photo_profile_config"
+                        android:text="User Name"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24dp"
+                        android:visibility="gone" />-->
+
+                   <!-- <RatingBar
+                        android:id="@+id/rb_user_evaluation_config"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="32dp"
+                        android:layout_toRightOf="@+id/civ_photo_profile_config"
+                        android:text="User Name"
+                        android:textColor="#000000"
+                        android:textSize="24dp"
+                        android:layout_below="@+id/tv_user_name_config"
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:progressBackgroundTint="@color/colorGrayDoubleLight"
+                        android:progressTint="@color/colorRatingGold"
+                        android:secondaryProgressTint="@color/colorRatingGoldLight"
+                        android:numStars="5"
+                        android:visibility="gone"/>-->
+
+                   <!-- <Button
+                        android:id="@+id/btn_edit_profile_config"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_above="@+id/rb_user_evaluation_config"
+                        android:layout_alignBottom="@+id/rb_user_evaluation_config"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/ic_edit_profile"
+                        android:visibility="gone" />-->
+
+                    <LinearLayout
+                        android:id="@+id/ll_base_panel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="32dp"
+
+                        android:gravity="center">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/civ_back_1_config"
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:src="@color/colorGrayDoubleLight"
+                                android:layout_centerHorizontal="true"
+                                app:civ_border_width="0.5dp"
+                                app:civ_border_color="@color/colorGrayLight"/>
+
+                            <TextView
+                                android:id="@+id/tv_count_delivered_config"
+                                android:text="0"
+                                android:textSize="16dp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:layout_centerHorizontal="true"/>
+
+                            <TextView
+                                android:text="Total\nde Entregas"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="6dp"
+                                android:layout_below="@+id/civ_back_1_config"/>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="24dp"
+                            android:layout_marginRight="24dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/civ_back_2_config"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:src="@color/colorGrayDoubleLight"
+                                app:civ_border_width="0.5dp"
+                                app:civ_border_color="@color/colorGrayLight"/>
+
+                            <TextView
+                                android:id="@+id/tv_count_available_config"
+                                android:text="R$ 0,00"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:layout_centerHorizontal="true"/>
+
+                            <TextView
+                                android:text="Disponível\npara saque"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="6dp"
+                                android:layout_below="@+id/civ_back_2_config"/>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginLeft="16dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/civ_back_3_config"
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:src="@color/colorGrayDoubleLight"
+                                app:civ_border_width="0.5dp"
+                                app:civ_border_color="@color/colorGrayLight"/>
+
+                            <TextView
+                                android:id="@+id/tv_count_receivable_config"
+                                android:text="R$ 0,00"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:layout_centerHorizontal="true"/>
+
+                            <TextView
+                                android:text="Total\na receber"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="6dp"
+                                android:layout_below="@+id/civ_back_3_config"/>
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_contact_config"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_base_panel"
+                        android:layout_marginTop="16dp"
+                        android:text="Contato"
+                        android:textSize="16dp" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_cel_config"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_contact_config"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/rounded_edit_border_gray"
+                        android:enabled="false">
+
+                        <EditText
+                            android:id="@+id/et_cel_config"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/transparent"
+                            android:hint="Celular"
+                            android:inputType="number"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:enabled="false" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_email_config"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/til_cel_config"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/rounded_edit_border_gray"
+                        android:enabled="false">
+
+                        <EditText
+                            android:id="@+id/et_email_config"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/transparent"
+                            android:hint="E-mail"
+                            android:inputType="textEmailAddress"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:enabled="false"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        android:id="@+id/tv_account_bank_config"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/til_email_config"
+                        android:layout_marginTop="24dp"
+                        android:text="Conta Bancária"
+                        android:textSize="16dp" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_agency_bank_config"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_account_bank_config"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/rounded_edit_border_gray"
+                        android:enabled="false">
+
+                        <EditText
+                            android:id="@+id/et_agency_config"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/transparent"
+                            android:hint="Agencia c/ Digito"
+                            android:inputType="number"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:enabled="false"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!--  <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_below="@+id/til_agency_bank_config">-->
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_account_bank_config"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/til_agency_bank_config"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="16dp"
+                        android:background="@drawable/rounded_edit_border_gray"
+                        android:enabled="false">
+
+                        <EditText
+                            android:id="@+id/et_account_bank_config"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/transparent"
+                            android:hint="N° Conta s/ Digito"
+                            android:inputType="number"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:enabled="false" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_account_bank_digit_config"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/til_agency_bank_config"
+                        android:layout_marginTop="16dp"
+                        android:layout_toRightOf="@+id/til_account_bank_config"
+                        android:background="@drawable/rounded_edit_border_gray"
+                        android:enabled="false">
+
+                        <EditText
+                            android:id="@+id/et_account_bank_digit_config"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/transparent"
+                            android:hint="Dígito"
+                            android:inputType="number"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:enabled="false" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <Spinner
+                        android:id="@+id/sp_type_account_bank_config"
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_below="@+id/til_account_bank_digit_config"
+                        android:entries="@array/type_account_bank"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_bank_config"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/sp_type_account_bank_config"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/rounded_edit_border_gray"
+                        android:enabled="false">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/et_bank_config"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@android:color/transparent"
+                            android:hint="Digite o Nome do Banco"
+                            android:inputType="textEmailAddress"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:enabled="false"
+                            android:entries="@array/banks"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <!--</LinearLayout>-->
+
+                    <Button
+                        android:id="@+id/btn_update_profile_config"
+                        android:text="ATUALIZAR"
+                        android:textColor="#FFFFFF"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:background="@drawable/rounded_button_confirm"
+                        android:layout_below="@+id/til_bank_config"
+                        android:enabled="false"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+   <!-- <LinearLayout
+        android:id="@+id/ll_progress_profile_config"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AE000000"
+        android:elevation="7dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/tv_message_loading_config"
+            android:text="Carregando Perfil..."
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

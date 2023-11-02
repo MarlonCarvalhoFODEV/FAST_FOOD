@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f44336</color>
+    <color name="colorPrimaryDark">#d32f2f</color>
+    <color name="colorPrimaryLight">#84ce0a00</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="colorAccentLight">#682196F3</color>
+    <color name="colorTbTitle">#555555</color>
+    <color name="colorBlack">@android:color/black</color>
+    <color name="colorWhite">@android:color/white</color>
+    <color name="transparente">@android:color/transparent</color>
+    <color name="transparentePreto">#8c000000</color>
+    <color name="transparenteWhite">#c8ffffff</color>
+
+    <color name="disable">#d4d4d4</color>
+    <color name="disableText">#b6b6b6</color>
+
+    <color name="colorReprovado">#f44336</color>
+    <color name="colorAguardandoAprovacao">#ffa600</color>
+    <color name="colorAprovado">#2c9ba3</color>
+    <color name="colorEmProducao">#eded00</color>
+    <color name="colorACaminho">#acac30</color>
+    <color name="colorFinalizado">#43ac30</color>
+    <color name="colorCancelado">#d60000</color>
+</resources>

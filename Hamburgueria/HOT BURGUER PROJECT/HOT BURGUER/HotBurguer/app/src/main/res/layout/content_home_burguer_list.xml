@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_home_burguer"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc_products"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/state_progress"
+        android:layout_above="@+id/btn_next_step"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_base_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D3000000"
+        android:clickable="true"
+        android:layout_marginBottom="40dp">
+
+        <ProgressBar
+            android:id="@+id/pb_home_burguer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/colorPrimaryDark"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_back_step"
+        android:textSize="35dp"
+        android:src="@drawable/ic_back"
+        android:gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/back_btn_back"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_total_value"
+        android:text="R$ 0,00"
+        android:textSize="22dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/back_curve"
+        android:paddingTop="5dp"
+        android:backgroundTint="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/btn_next_step"
+        android:text="Finalizar"
+        android:textSize="16dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center|center_vertical"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:paddingLeft="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/back_btn_next"/>
+
+    <ImageView
+        android:id="@+id/iv_icon_back"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_back"
+        android:layout_alignParentBottom="true"
+        android:padding="14dp"
+        android:elevation="8dp"
+        android:clickable="false"/>
+
+    <ImageView
+        android:id="@+id/iv_icon_next"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="14dp"
+        android:elevation="8dp"
+        android:clickable="false"/>
+</RelativeLayout>

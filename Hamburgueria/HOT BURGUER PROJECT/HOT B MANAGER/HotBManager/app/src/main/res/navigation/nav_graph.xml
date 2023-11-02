@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FMT_Home">
+
+    <fragment
+        android:id="@+id/FMT_Home"
+        android:name="br.com.hotbmanager.fragments.home.FMT_Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fmt_home" />
+    <fragment
+        android:id="@+id/FMT_HoldingDeliveryman"
+        android:name="br.com.hotbmanager.fragments.deliveryman.FMT_HoldingDeliveryman"
+        android:label="fragment_f_m_t__holding_deliveryman"
+        tools:layout="@layout/fmt_holding_deliveryman" />
+    <fragment
+        android:id="@+id/FMT_Configuration"
+        android:name="br.com.hotbmanager.fragments.config.FMT_Configuration"
+        android:label="fmt_configuration"
+        tools:layout="@layout/fmt_configuration" />
+    <fragment
+        android:id="@+id/FMT_OrdersForDelivery"
+        android:name="br.com.hotbmanager.fragments.promptdelivery.FMT_OrdersForDelivery"
+        android:label="fmt_orders_for_delivery"
+        tools:layout="@layout/fmt_orders_for_delivery" />
+    <fragment
+        android:id="@+id/FMT_Deliveryman"
+        android:name="br.com.hotbmanager.fragments.deliveryman.FMT_Deliveryman"
+        android:label="fmt_deliveryman" />
+
+
+</navigation>

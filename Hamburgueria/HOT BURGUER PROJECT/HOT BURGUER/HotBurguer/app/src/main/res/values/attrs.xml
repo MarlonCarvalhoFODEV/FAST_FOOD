@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HeaderImageView">
+
+        <attr name="civ_borderWidth" format="dimension"/>
+        <attr name="civ_borderColor" format="color"/>
+        <attr name="civ_borderRadius" format="dimension"/>
+        <attr name="civ_shape" format="enum">
+            <enum name="circle" value="0"/>
+            <enum name="round" value="1"/>
+            <enum name="diagonal" value="2"/>
+            <enum name="star" value="3"/>
+            <enum name="heart" value="4"/>
+        </attr>
+        <attr name="civ_scale" format="float"/>
+        <attr name="civ_blur_radius" format="float"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="AdvancedImageView">
+        <attr name="blur_radius" format="float"></attr>
+        <attr name="type_shape" format="enum">
+            <enum name="circle" value="0"/>
+            <enum name="round" value="1"/>
+            <enum name="diagonal" value="2"/>
+            <enum name="star" value="3"/>
+            <enum name="heart" value="4"/>
+            <enum name="arcTop" value="5"/>
+            <enum name="waveTop" value="6"/>
+        </attr>
+        <attr name="srcMask" format="reference"></attr>shape_arc_height
+        <attr name="shapeAjustPercentual" format="float"></attr>
+        <attr name="shape_arc_height" format="dimension"></attr>
+        <attr name="elevation" format="dimension"></attr>
+        <attr name="overlaySrc" format="reference"></attr>
+       <!-- <attr name="android:src" format="reference"></attr>-->
+    </declare-styleable>
+
+
+
+</resources>

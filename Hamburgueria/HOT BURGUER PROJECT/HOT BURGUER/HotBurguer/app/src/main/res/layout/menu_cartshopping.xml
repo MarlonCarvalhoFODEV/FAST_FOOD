@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="?attr/actionButtonStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="?attr/actionBarSize"
+    android:layout_height="?attr/actionBarSize"
+    android:clipToPadding="false"
+    android:focusable="true"
+    android:id="@+id/fl_cart_menu_inside_store"
+    android:elevation="8dp">
+
+    <ImageView
+        android:id="@+id/iv_menu_icon_cart_inside_store"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_shopping_cart"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/tv_counter_product_inside_store"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="right|end|top"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginRight="-5dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/circulo_expansivel_accent"
+        android:gravity="center"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:textColor="@android:color/white"
+        android:text="0"
+        android:textSize="12sp"/>
+
+</FrameLayout>

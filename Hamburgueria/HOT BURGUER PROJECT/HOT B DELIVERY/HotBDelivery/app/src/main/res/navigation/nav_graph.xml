@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FMT_Home">
+
+    <fragment
+        android:id="@+id/FMT_Home"
+        android:name="br.com.hotbdelivery.fragments.dashboard.FMT_Home"
+        android:label="fmt_dash_home"
+        tools:layout="@layout/fmt_dash_home" />
+    <fragment
+        android:id="@+id/FMT_InProccess"
+        android:name="br.com.hotbdelivery.fragments.dashboard.FMT_InProccess"
+        android:label="fmt_dash_in_proccess"
+        tools:layout="@layout/fmt_dash_in_proccess" />
+    <fragment
+        android:id="@+id/FMT_HistoricDelivery"
+        android:name="br.com.hotbdelivery.fragments.dashboard.FMT_HistoricDelivery"
+        android:label="fmt_historic_delivery"
+        tools:layout="@layout/fmt_dash_historic_delivery" />
+    <fragment
+        android:id="@+id/FMT_Profile"
+        android:name="br.com.hotbdelivery.fragments.dashboard.profile.FMT_Profile"
+        android:label="fmt_profile"
+        tools:layout="@layout/fmt_dash_profile" />
+</navigation>

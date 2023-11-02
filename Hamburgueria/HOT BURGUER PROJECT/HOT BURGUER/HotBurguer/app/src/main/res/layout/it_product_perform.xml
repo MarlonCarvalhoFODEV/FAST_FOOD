@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/base_it_product"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdvImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_like_product"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/back_decor_product"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        fresco:actualImageScaleType="fitCenter"
+        fresco:fadeDuration="300"
+        fresco:failureImage="@drawable/ic_img_fail"
+        fresco:failureImageScaleType="centerInside"
+        fresco:placeholderImage="@drawable/ic_other_img"
+        fresco:placeholderImageScaleType="fitCenter"
+        fresco:progressBarAutoRotateInterval="1000"
+        fresco:progressBarImageScaleType="centerInside"
+        fresco:retryImageScaleType="centerCrop" />
+
+
+    <TextView
+        android:id="@+id/tv_title_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:fontFamily="@font/daypbl"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:text="SIMPLES DUPLO"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/tv_engagement"
+        android:layout_alignStart="@+id/tv_cif"
+        android:layout_alignEnd="@+id/tv_decimal_price_product"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="24dp"
+        android:background="#000000"
+        fresco:layout_constraintBottom_toTopOf="@+id/tv_engagement"
+        fresco:layout_constraintEnd_toEndOf="parent"
+        fresco:layout_constraintStart_toStartOf="@+id/tv_cif" />
+
+    <TextView
+        android:id="@+id/tv_cif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_engagement"
+        android:layout_marginBottom="24dp"
+        android:layout_toLeftOf="@+id/tv_firs_number_price_product"
+        android:background="#000000"
+        android:elevation="2dp"
+        android:fontFamily="@font/babyu"
+        android:paddingLeft="12dp"
+        android:text="R$"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tv_firs_number_price_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_engagement"
+        android:layout_toLeftOf="@+id/tv_decimal_price_product"
+        android:elevation="2dp"
+        android:fontFamily="@font/babyu"
+        android:paddingLeft="8dp"
+        android:paddingRight="-3dp"
+        android:text="12"
+        android:textColor="#FFFFFF"
+        android:textSize="80dp" />
+
+    <TextView
+        android:id="@+id/tv_decimal_price_product"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_above="@+id/tv_engagement"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="26dp"
+        android:background="#000000"
+        android:elevation="4dp"
+        android:fontFamily="@font/babyu"
+        android:gravity="bottom|end"
+        android:paddingRight="12dp"
+        android:text=",99"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btn_share_product"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/tv_engagement"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/btn_feedback_product"
+        android:layout_weight="1"
+        android:background="@drawable/ic_share"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <ToggleButton
+        android:id="@+id/btn_like_product"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/tv_engagement"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_favorite"
+        android:gravity="center"
+        android:text=" "
+        android:textColor="#FFFFFF"
+        android:textOff=" "
+        android:textOn=" "
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btn_feedback_product"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/tv_engagement"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/btn_like_product"
+        android:layout_weight="1"
+        android:background="@drawable/ic_feedback"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tv_engagement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/panel_buttons"
+        android:layout_marginBottom="16dp"
+        android:text="38 curtidas e 150 comentários"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:id="@+id/panel_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_anyless_product"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/back_btn_anyless"
+            android:gravity="center"
+            android:text="-"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            fresco:layout_constraintBottom_toBottomOf="parent"
+            fresco:layout_constraintStart_toStartOf="parent"
+            fresco:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_count_product"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.40"
+            android:gravity="center"
+            android:text="0un"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            fresco:layout_constraintBottom_toBottomOf="parent"
+            fresco:layout_constraintEnd_toStartOf="@+id/btn_more_product"
+            fresco:layout_constraintStart_toEndOf="@+id/btn_anyless_product"
+            fresco:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_more_product"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/back_btn_more"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            fresco:layout_constraintBottom_toBottomOf="parent"
+            fresco:layout_constraintEnd_toEndOf="parent"
+            fresco:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+    <!-- </RelativeLayout>-->
+</RelativeLayout>

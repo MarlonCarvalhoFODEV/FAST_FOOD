@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp">
+
+    <!--<de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_img_profile_it_deliveryman"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_profile"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="16dp"
+        app:civ_border_width="0.8dp"
+        app:civ_border_color="#a9a9a9"
+        android:scaleType="centerCrop"/>-->
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_it_photo_holding"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_profile"
+        app:roundingBorderWidth="0.8dp"
+        app:roundingBorderColor="#a9a9a9"
+        app:roundAsCircle="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_name_it_deliveryman"
+        android:text="Deliveryman Name"
+        android:textSize="18dp"
+        android:textColor="#494949"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/sdv_it_photo_holding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_orders_it_deliveryman"
+        android:text="Orders (000 • 000 • 000)"
+        android:textSize="14dp"
+        android:layout_toRightOf="@+id/sdv_it_photo_holding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name_it_deliveryman"/>
+</RelativeLayout>

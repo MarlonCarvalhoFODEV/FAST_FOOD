@@ -1,0 +1,2779 @@
+<resources>
+    <string name="app_name">Hot B. Delivery</string>
+    <string name="comprazencasa">MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAhab4/B4zagUl2n2GqrhkfP+y/vR0WLZ/vJKceG8eXiqLSDDFKPtMdm1b2uX5VdiCzPNY3LhfS/mCq6FY5pkJ8IBZ3X4AVjKypx8LXOPS+q85onP+CTCNt+xvktcQKYEmd9QZB8a+oYAXgzH+q7Z95KzlG4rFNcpxU0HdG9Yz9idd8k0TT8hSxGrzLeDLzOrzhKjcRoQbHiP2T9ho/yw1ILBBN62etxw7y/vTCH1OhGdP18drnN0Z3uWvaLf+jyR9L4dfgwbRq51QicyhY4zT1t6t1iA9hTztZfEycwZEjQeGmqkYcHxgYmfbr8yYyFJYyoK7WyAOVsFTXJL01v4vbN4Mr467hzgYY/2Kc9xqkE8f2nxDN8q0xHVx+ZDem6ofJG2cdQR80s4TzI0/4t7mJR4NpKY/NWt7mWR3l+J9hwi1pFVd0f09ZXr6Ia+AytUEUj+QlHOp7MZ0rBip5x5AF3W0AgdwVueLh1s/+ntbIfVvQOiXQHDFaStbQjtSxlBeDw56YmGXkp63ComARo0KuJawyjXgkWgvwTXNBnhHG5ukdmEO/Uu0TLuTmGEgLuG1q2q/ZucxpvwNl0AAlLigNM8wemfPGIGgEO3JrHPKd7PlDVIisD+h3u+68SU9lSaT0QHr1zR5Ars30iPv13i5HiUXx4elPZKHlBuYIdU1Dq0CAwEAAQ==</string>
+    <string name="rsabig">MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAhab4/B4zagUl2n2GqrhkfP+y/vR0WLZ/vJKceG8eXiqLSDDFKPtMdm1b2uX5VdiCzPNY3LhfS/mCq6FY5pkJ8IBZ3X4AVjKypx8LXOPS+q85onP+CTCNt+xvktcQKYEmd9QZB8a+oYAXgzH+q7Z95KzlG4rFNcpxU0HdG9Yz9idd8k0TT8hSxGrzLeDLzOrzhKjcRoQbHiP2T9ho/yw1ILBBN62etxw7y/vTCH1OhGdP18drnN0Z3uWvaLf+jyR9L4dfgwbRq51QicyhY4zT1t6t1iA9hTztZfEycwZEjQeGmqkYcHxgYmfbr8yYyFJYyoK7WyAOVsFTXJL01v4vbN4Mr467hzgYY/2Kc9xqkE8f2nxDN8q0xHVx+ZDem6ofJG2cdQR80s4TzI0/4t7mJR4NpKY/NWt7mWR3l+J9hwi1pFVd0f09ZXr6Ia+AytUEUj+QlHOp7MZ0rBip5x5AF3W0AgdwVueLh1s/+ntbIfVvQOiXQHDFaStbQjtSxlBeDw56YmGXkp63ComARo0KuJawyjXgkWgvwTXNBnhHG5ukdmEO/Uu0TLuTmGEgLuG1q2q/ZucxpvwNl0AAlLigNM8wemfPGIGgEO3JrHPKd7PlDVIisD+h3u+68SU9lSaT0QHr1zR5Ars30iPv13i5HiUXx4elPZKHlBuYIdU1Dq0CAwEAAQ==</string>
+
+    <string name="onesignal_app_id">5627bc3c-23eb-40bb-b45b-6c27b8dd639f</string>
+    <string name="firebase_web_api">AIzaSyCmQEGC1skU5Hl7jQAhTqDeHgXkUY64gv8</string>
+    <string name="firebase_app_id">684823941406</string>
+    <string name="google_sign_client_id">684823941406-ffpcusrb92nk4htc3dpd0m2m1ur3iadg.apps.googleusercontent.com</string>
+    <!--<string name="google_sign_client_id">684823941406-p30i19hj3h457c2t2b5naerpi2ftdkli.apps.googleusercontent.com</string>-->
+
+    <string name="mapbox_access_token" translatable="false">pk.eyJ1IjoibWFybG9uY3pjIiwiYSI6ImNqcXJoMXJ2aTAxZzQ0MnBxbmQxOXh5amUifQ.QbqfUUz8WteXALxmLkhyTQ</string>
+    <string name="google_maps_credencials">AIzaSyAVCTcl_6kdZwtWkvzTwdmkJ0xwZvD6Tmo</string>
+
+    <string name="facebook_app_id">898656280670646</string>
+    <string name="fb_login_protocol_scheme">fb898656280670646</string>
+
+    <!--<string name="domain_connection">http://192.168.0.3:8080/</string>-->
+    <string name="domain_connection">http://192.168.0.3:8080/AppMobile/</string>
+    <!-- <string name="domain_connection">https://comprazencasa.com.br/AppMobile/</string>-->
+     <string name="domain_connection_user">Hot.Burguer</string>
+     <string name="domain_connection_authorization">d44a153913397cfcb81912299dfeb9a9</string>
+
+     <string name="title_activity_register">RegisterActivity</string>
+     <string name="sp_db">request_data</string>
+
+     <string name="user_location_permission_explanation">This app needs location permissions in order to show its functionality.</string>
+     <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+
+     <string-array name="type_account_bank">
+         <item>Corrente ou Poupança</item>
+         <item>Corrente</item>
+         <item>Corrente Conjunta</item>
+         <item>Poupança</item>
+         <item>Poupança Conjunta</item>
+     </string-array>
+
+    <string-array name="citys">
+        <item>Abarracamento (Rio das Flores)</item>
+        <item>Afonso Arinos (Comendador Levy Gasparian)</item>
+        <item>Andrade Pinto (Vassouras)</item>
+        <item>Angra dos Reis</item>
+        <item>Anta (Sapucaia)</item>
+        <item>Aperibé</item>
+        <item>Araruama</item>
+        <item>Areal</item>
+        <item>Armação dos Búzios</item>
+        <item>Arraial do Cabo</item>
+        <item>Arrozal (Piraí)</item>
+        <item>Avelar (Paty do Alferes)</item>
+        <item>Baltazar (Santo Antônio de Pádua)</item>
+        <item>Banquete (Bom Jardim)</item>
+        <item>Barão de Juparana (Valença)</item>
+        <item>Barcelos (São João da Barra)</item>
+        <item>Barra Alegre (Bom Jardim)</item>
+        <item>Barra de São João (Casimiro de Abreu)</item>
+        <item>Barra do Piraí</item>
+        <item>Barra Mansa</item>
+        <item>Belford Roxo</item>
+        <item>Bemposta (Três Rios)</item>
+        <item>Boa Esperança (Rio Bonito)</item>
+        <item>Boa Sorte (Cantagalo)</item>
+        <item>Boa Ventura (Itaperuna)</item>
+        <item>Bom Jardim</item>
+        <item>Bom Jesus do Itabapoana</item>
+        <item>Bom Jesus do Querendo (Natividade)</item>
+        <item>Cabo Frio</item>
+        <item>Cachoeiras de Macacu</item>
+        <item>Cachoeiros (Macaé)</item>
+        <item>Calheiros (Bom Jesus do Itabapoana)</item>
+        <item>Cambiasca (São Fidélis)</item>
+        <item>Cambuci</item>
+        <item>Campos dos Goytacazes</item>
+        <item>Cantagalo</item>
+        <item>Carabuçu (Bom Jesus do Itabapoana)</item>
+        <item>Carapebus</item>
+        <item>Cardoso Moreira</item>
+        <item>Carmo</item>
+        <item>Casimiro de Abreu</item>
+        <item>Colônia (São Fidélis)</item>
+        <item>Comendador Levy Gasparian</item>
+        <item>Comendador Venâncio (Itaperuna)</item>
+        <item>Conceição de Jacareí (Mangaratiba)</item>
+        <item>Conceição de Macabu</item>
+        <item>Conrado (Miguel Pereira)</item>
+        <item>Conservatória (Valença)</item>
+        <item>Cordeiro</item>
+        <item>Córrego da Prata (Carmo)</item>
+        <item>Córrego do Ouro (Macaé)</item>
+        <item>Dorândia (Barra do Piraí)</item>
+        <item>Dores de Macabu (Campos dos Goytacazes)</item>
+        <item>Doutor Elias (Trajano de Moraes)</item>
+        <item>Doutor Loreti (Santa Maria Madalena)</item>
+        <item>Duas Barras</item>
+        <item>Duque de Caxias</item>
+        <item>Engenheiro Passos (Resende)</item>
+        <item>Engenheiro Paulo de Frontin</item>
+        <item>Estrada Nova (Itaocara)</item>
+        <item>Euclidelândia (Cantagalo)</item>
+        <item>Frade (Macaé)</item>
+        <item>Fumaça (Resende)</item>
+        <item>Funil (Cambuci)</item>
+        <item>Gaviões (Silva Jardim)</item>
+        <item>Getulândia (Rio Claro)</item>
+        <item>Glicério (Macaé)</item>
+        <item>Goitacazes (Campos dos Goytacazes)</item>
+        <item>Governador Portela (Miguel Pereira)</item>
+        <item>Guapimirim</item>
+        <item>Ibitiguaçu (Santo Antônio de Pádua)</item>
+        <item>Ibitioca (Campos dos Goytacazes)</item>
+        <item>Iguaba Grande</item>
+        <item>Ilha Grande (Angra dos Reis)</item>
+        <item>Inconfidência (Paraíba do Sul)</item>
+        <item>Ipiabas (Barra do Piraí)</item>
+        <item>Ipituna (São Sebastião do Alto)</item>
+        <item>Ipuca (São Fidélis)</item>
+        <item>Itabapoana (São Francisco de Itabapoana)</item>
+        <item>Itaboraí</item>
+        <item>Itacurussá (Mangaratiba)</item>
+        <item>Itaguaí</item>
+        <item>Itajara (Itaperuna)</item>
+        <item>Italva</item>
+        <item>Itaocara</item>
+        <item>Itaperuna</item>
+        <item>Itatiaia</item>
+        <item>Jaguarembé (Itaocara)</item>
+        <item>Jamapará (Sapucaia)</item>
+        <item>Japeri</item>
+        <item>Japuíba (Cachoeiras de Macacu)</item>
+        <item>Laje do Muriaé</item>
+        <item>Laranjais (Itaocara)</item>
+        <item>Lídice (Rio Claro)</item>
+        <item>Macabuzinho (Conceição de Macabu)</item>
+        <item>Macaé</item>
+        <item>Macuco</item>
+        <item>Magé</item>
+        <item>Mangaratiba</item>
+        <item>Manuel Duarte (Rio das Flores)</item>
+        <item>Marangatu (Santo Antônio de Pádua)</item>
+        <item>Maricá</item>
+        <item>Mendes</item>
+        <item>Mesquita</item>
+        <item>Miguel Pereira</item>
+        <item>Miracema</item>
+        <item>Monnerat (Duas Barras)</item>
+        <item>Monte Alegre (Santo Antônio de Pádua)</item>
+        <item>Monte Verde (Cambuci)</item>
+        <item>Monumento (Piraí)</item>
+        <item>Morangaba (Campos dos Goytacazes)</item>
+        <item>Morro do Côco (Campos dos Goytacazes)</item>
+        <item>Mussurepe (Campos dos Goytacazes)</item>
+        <item>Natividade</item>
+        <item>Nilópolis</item>
+        <item>Niterói</item>
+        <item>Nossa Senhora da Aparecida (Sapucaia)</item>
+        <item>Nossa Senhora da Penha (Itaperuna)</item>
+        <item>Nova Friburgo</item>
+        <item>Nova Iguaçu</item>
+        <item>Ourânia (Natividade)</item>
+        <item>Papucaia (Cachoeiras de Macacu)</item>
+        <item>Paracambi</item>
+        <item>Paraíba do Sul</item>
+        <item>Paraíso do Tobias (Miracema)</item>
+        <item>Paraoquena (Santo Antônio de Pádua)</item>
+        <item>Parapeúna (Valença)</item>
+        <item>Passa Três (Rio Claro)</item>
+        <item>Paty do Alferes</item>
+        <item>Pedra Selada (Resende)</item>
+        <item>Penedo (Itatiaia)</item>
+        <item>Pentagna (Valença)</item>
+        <item>Petrópolis</item>
+        <item>Pião (Sapucaia)</item>
+        <item>Pinheiral</item>
+        <item>Pipeiras (São João da Barra)</item>
+        <item>Piraí</item>
+        <item>Porciúncula</item>
+        <item>Portela (Itaocara)</item>
+        <item>Porto Real</item>
+        <item>Porto Velho do Cunha (Carmo)</item>
+        <item>Pureza (São Fidélis)</item>
+        <item>Purilândia (Porciúncula)</item>
+        <item>Quatis</item>
+        <item>Queimados</item>
+        <item>Quissamã</item>
+        <item>Raposo (Itaperuna)</item>
+        <item>Renascença (Santa Maria Madalena)</item>
+        <item>Resende</item>
+        <item>Retiro do Muriaé (Itaperuna)</item>
+        <item>Rio Bonito</item>
+        <item>Rio Claro</item>
+        <item>Rio das Flores</item>
+        <item>Rio das Ostras</item>
+        <item>Rio de Janeiro</item>
+        <item>Rio de Janeiro, RJ</item>
+        <item>Rosal (Bom Jesus do Itabapoana)</item>
+        <item>Sacra Família do Tinguá (Engenheiro Paulo de Frontin)</item>
+        <item>Salutaris (Paraíba do Sul)</item>
+        <item>Sana (Macaé)</item>
+        <item>Santa Clara (Porciúncula)</item>
+        <item>Santa Cruz (Santo Antônio de Pádua)</item>
+        <item>Santa Isabel do Rio Preto (Valença)</item>
+        <item>Santa Maria (Campos dos Goytacazes)</item>
+        <item>Santa Maria Madalena</item>
+        <item>Santa Rita da Floresta (Cantagalo)</item>
+        <item>Santanésia (Piraí)</item>
+        <item>Santo Amaro de Campos (Campos dos Goytacazes)</item>
+        <item>Santo Antônio de Pádua</item>
+        <item>Santo Antônio do Imbé (Santa Maria Madalena)</item>
+        <item>Santo Eduardo (Campos dos Goytacazes)</item>
+        <item>São Fidélis</item>
+        <item>São Francisco de Itabapoana</item>
+        <item>São Gonçalo</item>
+        <item>São João da Barra</item>
+        <item>São João de Meriti</item>
+        <item>São João do Paraíso (Cambuci)</item>
+        <item>São Joaquim (Cardoso Moreira)</item>
+        <item>São José de Ubá</item>
+        <item>São José do Ribeirão (Bom Jardim)</item>
+        <item>São José do Turvo (Barra do Piraí)</item>
+        <item>São José do Vale do Rio Preto</item>
+        <item>São Pedro da Aldeia</item>
+        <item>São Sebastião de Campos (Campos dos Goytacazes)</item>
+        <item>São Sebastião do Alto</item>
+        <item>São Sebastião do Paraíba (Cantagalo)</item>
+        <item>São Sebastião dos Ferreiros (Vassouras)</item>
+        <item>São Vicente de Paula (Araruama)</item>
+        <item>Sapucaia</item>
+        <item>Saquarema</item>
+        <item>Sebastião de Lacerda (Vassouras)</item>
+        <item>Seropédica</item>
+        <item>Serrinha (Campos dos Goytacazes)</item>
+        <item>Silva Jardim</item>
+        <item>Sodrelândia (Trajano de Moraes)</item>
+        <item>Sossego (Santa Maria Madalena)</item>
+        <item>Subaio (Cachoeiras de Macacu)</item>
+        <item>Sumidouro</item>
+        <item>Taboas (Rio das Flores)</item>
+        <item>Tanguá</item>
+        <item>Tapera (Trajano de Moraes)</item>
+        <item>Teresópolis</item>
+        <item>Tocos (Campos dos Goytacazes)</item>
+        <item>Trajano de Moraes</item>
+        <item>Travessão (Campos dos Goytacazes)</item>
+        <item>Três Irmãos (Cambuci)</item>
+        <item>Três Rios</item>
+        <item>Triunfo (Santa Maria Madalena)</item>
+        <item>Valão do Barro (São Sebastião do Alto)</item>
+        <item>Valença</item>
+        <item>Vargem Alegre (Barra do Piraí)</item>
+        <item>Varre-Sai</item>
+        <item>Vassouras</item>
+        <item>Venda das Flores (Miracema)</item>
+        <item>Vila da Grama (Trajano de Moraes)</item>
+        <item>Vila Muriqui (Mangaratiba)</item>
+        <item>Vila Nova de Campos (Campos dos Goytacazes)</item>
+        <item>Visconde de Imbé (Trajano de Moraes)</item>
+        <item>Visconde de Mauá (Resende)</item>
+        <item>Volta Redonda</item>
+        <item>Werneck (Paraíba do Sul)</item>
+    </string-array>
+
+    <string-array name="neighborhoods">
+        <item>9 de Abril</item>
+        <item>Abarracamento</item>
+        <item>Abelhas</item>
+        <item>Abolição</item>
+        <item>Acari</item>
+        <item>Açude</item>
+        <item>Adrianópolis</item>
+        <item>Aero Clube</item>
+        <item>Aeroporto (Cunhambebe)</item>
+        <item>Afonso Arinos</item>
+        <item>Afonso Celso</item>
+        <item>Agostinho Porto</item>
+        <item>Agriões</item>
+        <item>Agrisa</item>
+        <item>Agro Brasil (Sambaetiba)</item>
+        <item>Água Santa</item>
+        <item>Ajuda</item>
+        <item>Alambari</item>
+        <item>Albuquerque</item>
+        <item>Alcântara</item>
+        <item>Aldeia da Prata (Manilha)</item>
+        <item>Aldeia Velha</item>
+        <item>Alecrim</item>
+        <item>Alegria</item>
+        <item>Algodoal</item>
+        <item>Aliança</item>
+        <item>Almerinda</item>
+        <item>Alpha Green</item>
+        <item>Alphaville</item>
+        <item>Alto</item>
+        <item>Alto Cajueiros</item>
+        <item>Alto da Boa Vista</item>
+        <item>Alto da Posse</item>
+        <item>Alto da Serra</item>
+        <item>Alto do Jacú (Sambaetiba)</item>
+        <item>Alto do São José</item>
+        <item>Alto dos Passos</item>
+        <item>Alto Paraíso</item>
+        <item>Alto Uruguai</item>
+        <item>Alvarez</item>
+        <item>Alvorada</item>
+        <item>Alvorada (Bacaxá)</item>
+        <item>Amapá</item>
+        <item>Ambaí</item>
+        <item>Amélia</item>
+        <item>Amendoeira</item>
+        <item>Amontoado Brejo Grande</item>
+        <item>Amparo</item>
+        <item>Ampliação</item>
+        <item>Anaia Grande</item>
+        <item>Anaia Pequeno</item>
+        <item>Anchieta</item>
+        <item>Andaraí</item>
+        <item>Andorinhas (Santo Aleixo)</item>
+        <item>Andradas</item>
+        <item>Andrade Araujo</item>
+        <item>Anil</item>
+        <item>Ano Bom</item>
+        <item>Antas</item>
+        <item>Antonina</item>
+        <item>Antônio Rocha</item>
+        <item>Apolo II (Manilha)</item>
+        <item>Apóstolo Paulo</item>
+        <item>Aprazível</item>
+        <item>Aquarius (Tamoios)</item>
+        <item>Araçatiba</item>
+        <item>Araras</item>
+        <item>Arco-Iris</item>
+        <item>Are</item>
+        <item>Areal</item>
+        <item>Areal (Cunhambebe)</item>
+        <item>Areia Branca</item>
+        <item>Ariró (Cunhambebe)</item>
+        <item>Aroeira</item>
+        <item>Arrastão</item>
+        <item>Arrozal</item>
+        <item>Arruda Negreiros</item>
+        <item>Arsenal</item>
+        <item>Arthur Cataldi</item>
+        <item>Artistas</item>
+        <item>Asfalto Velho (Bacaxá)</item>
+        <item>Assunção</item>
+        <item>Atafona</item>
+        <item>Atalaia</item>
+        <item>Aterrado</item>
+        <item>Aterrado (Bacaxá)</item>
+        <item>Atlântica</item>
+        <item>Austin</item>
+        <item>Autódromo</item>
+        <item>Babi</item>
+        <item>Bacaxá (Bacaxá)</item>
+        <item>Badu</item>
+        <item>Badureco</item>
+        <item>Baía Branca (Guia de Pacobaíba)</item>
+        <item>Baia de Guanabara</item>
+        <item>Bairro Sinagoga (Tamoios)</item>
+        <item>Baixa Grande</item>
+        <item>Baixo Grande</item>
+        <item>Baldeador</item>
+        <item>Baleia</item>
+        <item>Balneário</item>
+        <item>Balneário Bambuí (Ponta Negra)</item>
+        <item>Balneário das Conchas</item>
+        <item>Balneário das Garças</item>
+        <item>Balneário Remanso</item>
+        <item>Balneário São Pedro</item>
+        <item>Bananal</item>
+        <item>Bananal (Ponta Negra)</item>
+        <item>Bananeiras</item>
+        <item>Bancários</item>
+        <item>Banco de Areia</item>
+        <item>Bandeirantes I</item>
+        <item>Bandeirantes II</item>
+        <item>Bangu</item>
+        <item>Banqueta (Cunhambebe)</item>
+        <item>Barão de Amapá</item>
+        <item>Barão de Guandu</item>
+        <item>Barão do Iriri</item>
+        <item>Barão do Rio Branco</item>
+        <item>Barbara</item>
+        <item>Barbosa Lima</item>
+        <item>Barbuda</item>
+        <item>Barra</item>
+        <item>Barra da Tijuca</item>
+        <item>Barra de Guaratiba</item>
+        <item>Barra de Macaé</item>
+        <item>Barra de Maricá</item>
+        <item>Barra de São Francisco</item>
+        <item>Barra de São João</item>
+        <item>Barra do Furado</item>
+        <item>Barra do Imbuí</item>
+        <item>Barra do Itabapoana</item>
+        <item>Barra dos Passos</item>
+        <item>Barra Nova</item>
+        <item>Barracão</item>
+        <item>Barreira</item>
+        <item>Barreira (Bacaxá)</item>
+        <item>Barreira Cravo</item>
+        <item>Barreto</item>
+        <item>Barrinha</item>
+        <item>Barro Branco</item>
+        <item>Barro Vermelho</item>
+        <item>Barroco (Itaipuaçu)</item>
+        <item>Barros Filho</item>
+        <item>Barros Franco</item>
+        <item>Barroso</item>
+        <item>Base Aero Naval</item>
+        <item>Basilea (Sampaio Correia)</item>
+        <item>Batatal (Santo Aleixo)</item>
+        <item>Batelão da Barra</item>
+        <item>Baú</item>
+        <item>Bazílio</item>
+        <item>Bela Floresta</item>
+        <item>Bela Vista</item>
+        <item>Belford Roxo</item>
+        <item>Belmonte</item>
+        <item>Belo Horizonte</item>
+        <item>Belterra</item>
+        <item>Belvedere da Taquara</item>
+        <item>Benfica</item>
+        <item>Bento Ribeiro</item>
+        <item>Bernardo Kelner</item>
+        <item>Bertioga</item>
+        <item>Bicuíba (Bacaxá)</item>
+        <item>Bingen</item>
+        <item>Biquinha</item>
+        <item>Biscaia</item>
+        <item>BNH</item>
+        <item>Boa Esperança</item>
+        <item>Boa Nova</item>
+        <item>Boa Sorte</item>
+        <item>Boa União</item>
+        <item>Boa Ventura</item>
+        <item>Boa Viagem</item>
+        <item>Boa Vista</item>
+        <item>Boa Vista I</item>
+        <item>Boa Vista II</item>
+        <item>Boa Vista III</item>
+        <item>Boaçu</item>
+        <item>Boca da Barra</item>
+        <item>Boca do Mato</item>
+        <item>Bocaininha</item>
+        <item>Bom Jesus</item>
+        <item>Bom Pastor</item>
+        <item>Bom Retiro</item>
+        <item>Bonfim</item>
+        <item>Bongaba (Vila Inhomirim)</item>
+        <item>Bonsucesso</item>
+        <item>Bonsucesso (Bacaxá)</item>
+        <item>Boqueirão</item>
+        <item>Bosque Beira Rio</item>
+        <item>Bosque da Areia</item>
+        <item>Bosque da Praia</item>
+        <item>Bosque das Acácias</item>
+        <item>Bosque Jambalaia</item>
+        <item>Botafogo</item>
+        <item>Bracuí (Cunhambebe)</item>
+        <item>Braga</item>
+        <item>Brasil</item>
+        <item>Brasilândia</item>
+        <item>Braunes</item>
+        <item>Braz de Pina</item>
+        <item>Brisa Mar</item>
+        <item>Britador (Santo Aleixo)</item>
+        <item>Bruno Lecini</item>
+        <item>Buena</item>
+        <item>Bulhões</item>
+        <item>Cabiúnas</item>
+        <item>Cabral</item>
+        <item>Cabuçu</item>
+        <item>Cabuis</item>
+        <item>Caçador</item>
+        <item>Cachambi</item>
+        <item>Cachoeira Grande (Rio do Ouro)</item>
+        <item>Cachoeiras</item>
+        <item>Cacuia</item>
+        <item>Cadetes Fabres</item>
+        <item>Caetés</item>
+        <item>Caieira</item>
+        <item>Caieira São Pedro</item>
+        <item>Caieira Velha</item>
+        <item>Cailândia</item>
+        <item>Caioaba</item>
+        <item>Caixa Dágua (Bacaxá)</item>
+        <item>Caju</item>
+        <item>Caju (Ponta Negra)</item>
+        <item>Cajueiro</item>
+        <item>Cajueiros</item>
+        <item>Cajueiros (Itaipuaçu)</item>
+        <item>Calaboca (Inoã)</item>
+        <item>Caleme</item>
+        <item>Califórnia</item>
+        <item>Caluge</item>
+        <item>Calundu</item>
+        <item>Camarão</item>
+        <item>Cambiasca</item>
+        <item>Camboinhas</item>
+        <item>Camburi</item>
+        <item>Caminho de Búzios</item>
+        <item>Camorim</item>
+        <item>Camorim Pequeno</item>
+        <item>Campanha</item>
+        <item>Campelo</item>
+        <item>Campinas</item>
+        <item>Campinho</item>
+        <item>Campinho (Suruí)</item>
+        <item>Campo Alegre</item>
+        <item>Campo Belo</item>
+        <item>Campo Belo (Cunhambebe)</item>
+        <item>Campo Bom</item>
+        <item>Campo do Coelho</item>
+        <item>Campo do Oeste</item>
+        <item>Campo dos Afonsos</item>
+        <item>Campo Grande</item>
+        <item>Campo Limpo</item>
+        <item>Campo Lindo</item>
+        <item>Campo Redondo</item>
+        <item>Campos Elíseos</item>
+        <item>Canal</item>
+        <item>Cancela Preta</item>
+        <item>Candelária</item>
+        <item>Caneca Fina</item>
+        <item>Cangulo</item>
+        <item>Cantagalo</item>
+        <item>Cantão</item>
+        <item>Cantinho do Mar</item>
+        <item>Canto do Rio</item>
+        <item>Caonze</item>
+        <item>Capela (Rio do Ouro)</item>
+        <item>Capivari</item>
+        <item>Caputera I</item>
+        <item>Caputera II</item>
+        <item>Caramujo</item>
+        <item>Caramujos</item>
+        <item>Carangola</item>
+        <item>Carlos Guinle</item>
+        <item>Carlos Sampaio</item>
+        <item>Carmari</item>
+        <item>Carolina</item>
+        <item>Carretão</item>
+        <item>Carvão</item>
+        <item>Casa da Lua</item>
+        <item>Casa de Pedra</item>
+        <item>Casa Grande</item>
+        <item>Cascadura</item>
+        <item>Cascata (Santo Aleixo)</item>
+        <item>Cascata do Imbuí</item>
+        <item>Cascata dos Amores</item>
+        <item>Cascata Guarani</item>
+        <item>Cascatinha</item>
+        <item>Cassorotiba (Inoã)</item>
+        <item>Castelanea</item>
+        <item>Castelo Branco</item>
+        <item>Castrioto</item>
+        <item>Catarcione</item>
+        <item>Catete</item>
+        <item>Catumbi</item>
+        <item>Cavado (Santo Aleixo)</item>
+        <item>Cavalcanti</item>
+        <item>Cavaleiros</item>
+        <item>Caxambu</item>
+        <item>Caxito</item>
+        <item>Caxumba</item>
+        <item>Célula Mater</item>
+        <item>Cem Braças</item>
+        <item>Centro</item>
+        <item>Centro (Cabuçu)</item>
+        <item>Centro (Itambi)</item>
+        <item>Centro (Manilha)</item>
+        <item>Centro (Pachecos)</item>
+        <item>Centro (Porto das Caixas)</item>
+        <item>Centro (Rio do Ouro)</item>
+        <item>Centro (Sambaetiba)</item>
+        <item>Centro (Suruí)</item>
+        <item>Centro (Vila Inhomirim)</item>
+        <item>Centro (Visconde de Itaboraí)</item>
+        <item>Centro de Japeri</item>
+        <item>Centro Hípico (Tamoios)</item>
+        <item>Cerâmica</item>
+        <item>Chácara Farani</item>
+        <item>Chácara Flora</item>
+        <item>Chácara Iguá</item>
+        <item>Chácara Mariléa</item>
+        <item>Chácara Paraíso</item>
+        <item>Chácara Santo Antônio</item>
+        <item>Chácaras Arcampo</item>
+        <item>Chácaras Bela Vista (Sambaetiba)</item>
+        <item>Chácaras de Inoã (Inoã)</item>
+        <item>Chácaras Grande Rio (Suruí)</item>
+        <item>Chácaras Maria Helena</item>
+        <item>Chácaras Rio-Petrópolis</item>
+        <item>Chacrinha</item>
+        <item>Chalet</item>
+        <item>Chaperó</item>
+        <item>Charitas</item>
+        <item>Chatuba</item>
+        <item>Chavascal</item>
+        <item>Cidade Alegria</item>
+        <item>Cidade Alegria II</item>
+        <item>Cidade Beira Mar</item>
+        <item>Cidade da Bíblia</item>
+        <item>Cidade de Deus</item>
+        <item>Cidade do Cinema (Guia de Pacobaíba)</item>
+        <item>Cidade dos Meninos</item>
+        <item>Cidade Horácio (Vila Inhomirim)</item>
+        <item>Cidade Industrial</item>
+        <item>Cidade Jardim Cabuçu</item>
+        <item>Cidade Jardim Guapimirim</item>
+        <item>Cidade Jardim Marajoara</item>
+        <item>Cidade Jardim Parque Estoril</item>
+        <item>Cidade Nova</item>
+        <item>Cidade Praiana</item>
+        <item>Cidade Senhor do Bonfim</item>
+        <item>Cidade Universitária</item>
+        <item>Cimento Paraíso</item>
+        <item>Circular</item>
+        <item>Citrolândia</item>
+        <item>Citrópolis</item>
+        <item>City Areal</item>
+        <item>Civilização</item>
+        <item>Cocotá</item>
+        <item>Codim</item>
+        <item>Coelho</item>
+        <item>Coelho da Rocha</item>
+        <item>Coelho Neto</item>
+        <item>Coimbra</item>
+        <item>Colégio</item>
+        <item>Colégio Naval</item>
+        <item>Colina</item>
+        <item>Colinas</item>
+        <item>Colônia</item>
+        <item>Colônia Alpina</item>
+        <item>Colônia Santo Antônio</item>
+        <item>Colorado</item>
+        <item>Colubande</item>
+        <item>Comendador Reis</item>
+        <item>Comendador Soares</item>
+        <item>Comercial</item>
+        <item>Comércio</item>
+        <item>Comum (Bacaxá)</item>
+        <item>Conceição (Rio do Ouro)</item>
+        <item>Condado de Bacaxá (Bacaxá)</item>
+        <item>Condado de Maricá</item>
+        <item>Condomínio Porto Seguro</item>
+        <item>Cônego</item>
+        <item>Conforto</item>
+        <item>Conjunto Residencial Redenção</item>
+        <item>Conselheiro Josino</item>
+        <item>Conselheiro Paulino</item>
+        <item>Copacabana</item>
+        <item>Coqueiral</item>
+        <item>Coqueiro</item>
+        <item>Coqueiros</item>
+        <item>Cordeirinho (Ponta Negra)</item>
+        <item>Cordoeira</item>
+        <item>Cordovil</item>
+        <item>Coréia</item>
+        <item>Coriolano</item>
+        <item>Coroa Grande</item>
+        <item>Coronel Teixeira</item>
+        <item>Coronel Veiga</item>
+        <item>Corrêas</item>
+        <item>Córrego DAntas</item>
+        <item>Córrego das Pedras</item>
+        <item>Côrrego de Santo Antonio</item>
+        <item>Córrego do Ouro</item>
+        <item>Córrego Sujo</item>
+        <item>Corta Vento</item>
+        <item>Corujas</item>
+        <item>Corumbá</item>
+        <item>Cosme e Damião</item>
+        <item>Cosme Velho</item>
+        <item>Cosmorama</item>
+        <item>Cosmos</item>
+        <item>Costa Barros</item>
+        <item>Costa do Sol</item>
+        <item>Costazul</item>
+        <item>Cotia</item>
+        <item>Cotiara</item>
+        <item>Covanca</item>
+        <item>Cruz</item>
+        <item>Cruzeiro</item>
+        <item>Cruzeiro do Sul</item>
+        <item>Cubango</item>
+        <item>Cuiabá</item>
+        <item>Curato</item>
+        <item>Curicica</item>
+        <item>Curral Falso</item>
+        <item>Curuzu (Cabuçu)</item>
+        <item>Custodópolis</item>
+        <item>da Luz</item>
+        <item>Danon</item>
+        <item>Das Graças</item>
+        <item>Debossan</item>
+        <item>Del Castilho</item>
+        <item>Dendê</item>
+        <item>Deodoro</item>
+        <item>Diana</item>
+        <item>Distrito Industrial</item>
+        <item>Divino</item>
+        <item>Do Carmo</item>
+        <item>Dois Irmãos</item>
+        <item>Dom Bosco</item>
+        <item>Dom Rodrigo</item>
+        <item>Dona Mariana</item>
+        <item>Dona Neli</item>
+        <item>Dores de Macabu</item>
+        <item>Dos Ferreiras</item>
+        <item>Doutor Laureano</item>
+        <item>Doutor Matos</item>
+        <item>Doutor Mesquita</item>
+        <item>Duarte Silveira</item>
+        <item>Duas Pedras</item>
+        <item>Duchas</item>
+        <item>Dumas</item>
+        <item>Dunas do Peró</item>
+        <item>Duque Estrada</item>
+        <item>Duques</item>
+        <item>Duzentos e Quarenta e Nove</item>
+        <item>Ecologia</item>
+        <item>Edson Passos</item>
+        <item>Eldorado</item>
+        <item>Eliane</item>
+        <item>Elite</item>
+        <item>Encantado</item>
+        <item>Encruzo da Enseada (Cunhambebe)</item>
+        <item>Engenheiro Belford</item>
+        <item>Engenheiro Leal</item>
+        <item>Engenheiro Pedreira</item>
+        <item>Engenheiro Rocha Freire</item>
+        <item>Engenho</item>
+        <item>Engenho Central</item>
+        <item>Engenho da Praia</item>
+        <item>Engenho da Rainha</item>
+        <item>Engenho de Dentro</item>
+        <item>Engenho do Mato</item>
+        <item>Engenho do Porto</item>
+        <item>Engenho do Roçado</item>
+        <item>Engenho Grande (Bacaxá)</item>
+        <item>Engenho Novo</item>
+        <item>Engenho Pequeno</item>
+        <item>Engenho Velho</item>
+        <item>Engenhoca</item>
+        <item>Enseada</item>
+        <item>Enseada das Gaivotas</item>
+        <item>Ermitage</item>
+        <item>Ernesto Machado</item>
+        <item>Esperança</item>
+        <item>Espinhaço</item>
+        <item>Espraiado (Ponta Negra)</item>
+        <item>Essolandia</item>
+        <item>Estação</item>
+        <item>Estácio</item>
+        <item>Estrada da Saudade</item>
+        <item>Estreito</item>
+        <item>Estrela do Céu</item>
+        <item>Estrela do Norte</item>
+        <item>Eucaliptal</item>
+        <item>Eucaliptos</item>
+        <item>Euclidelândia</item>
+        <item>Extensão do Bosque</item>
+        <item>Extensão Novo Rio das Ostras</item>
+        <item>Fabio Gimenes</item>
+        <item>Falcão</item>
+        <item>Fanchem</item>
+        <item>Farol de São Tomé</item>
+        <item>Farrula</item>
+        <item>Fátima</item>
+        <item>Fátima (Bacaxá)</item>
+        <item>Fazenda Alpina</item>
+        <item>Fazenda Bela Vista</item>
+        <item>Fazenda Boa Fé</item>
+        <item>Fazenda Brasil</item>
+        <item>Fazenda Cabucu</item>
+        <item>Fazenda Castelo</item>
+        <item>Fazenda Caxias</item>
+        <item>Fazenda Conceição</item>
+        <item>Fazenda da Barra</item>
+        <item>Fazenda da Barra 2</item>
+        <item>Fazenda da Barra 3</item>
+        <item>Fazenda da Grama</item>
+        <item>Fazenda do Campo</item>
+        <item>Fazenda do Tingui</item>
+        <item>Fazenda dos Mineiros</item>
+        <item>Fazenda Inglesa</item>
+        <item>Fazenda Palmeiras</item>
+        <item>Fazenda Penedo</item>
+        <item>Fazenda Sobradinho (Vila Inhomirim)</item>
+        <item>Fazendinha</item>
+        <item>Figueira</item>
+        <item>Figueiras</item>
+        <item>Fischer</item>
+        <item>Flamengo</item>
+        <item>Flesmam</item>
+        <item>Flexeira</item>
+        <item>Flexeira II</item>
+        <item>Flexeiras</item>
+        <item>Flores</item>
+        <item>Floresta</item>
+        <item>Floresta das Gaivotas</item>
+        <item>Florestinha I (Tamoios)</item>
+        <item>Florestinha II (Tamoios)</item>
+        <item>Floriano</item>
+        <item>Fluminense</item>
+        <item>Foguete</item>
+        <item>Fonseca</item>
+        <item>Fonte Carioca</item>
+        <item>Fonte Limpa</item>
+        <item>Fonte Santa</item>
+        <item>Formoso</item>
+        <item>Frade (Cunhambebe)</item>
+        <item>Fragoso (Vila Inhomirim)</item>
+        <item>Fraternidade</item>
+        <item>Freguesia (Ilha do Governador)</item>
+        <item>Freguesia (Jacarepaguá)</item>
+        <item>Frei Fabiano</item>
+        <item>Fronteira</item>
+        <item>Funil</item>
+        <item>Galeão</item>
+        <item>Galo Branco</item>
+        <item>Gamboa</item>
+        <item>Gambôa do Belém (Cunhambebe)</item>
+        <item>Gambôa do Bracuí (Cunhambebe)</item>
+        <item>Gandé</item>
+        <item>Garatucaia</item>
+        <item>Gardênia Azul</item>
+        <item>Gargau</item>
+        <item>Garrafão</item>
+        <item>Gávea</item>
+        <item>Gebara</item>
+        <item>Gebara (Itambi)</item>
+        <item>Gelson Apicelo</item>
+        <item>Geneciano</item>
+        <item>Getúlio Vargas</item>
+        <item>Glaucia</item>
+        <item>Glória</item>
+        <item>Goiabal</item>
+        <item>Golfe</item>
+        <item>Governador Portela</item>
+        <item>Governador Roberto Silveira</item>
+        <item>Goya (Guia de Pacobaíba)</item>
+        <item>Goytacazes (Goytacazes)</item>
+        <item>Graças</item>
+        <item>Gradim</item>
+        <item>Gragoatá</item>
+        <item>Grajaú</item>
+        <item>Grama</item>
+        <item>Gramacho</item>
+        <item>Grande Rio</item>
+        <item>Grande Rio (Itambi)</item>
+        <item>Granja Copacabana</item>
+        <item>Granja dos Cavaleiros</item>
+        <item>Granja Florestal</item>
+        <item>Granja Guarani</item>
+        <item>Granja Iguaçu</item>
+        <item>Granja Mafra</item>
+        <item>Granja Monica</item>
+        <item>Granja Napoleão</item>
+        <item>Granja Rancho Alegre</item>
+        <item>Granja Rosalina</item>
+        <item>Granja Santa Teresa (Vila Inhomirim)</item>
+        <item>Granja Spinelli</item>
+        <item>Granjas Cabuçu (Manilha)</item>
+        <item>Granjas Mirassol (Pachecos)</item>
+        <item>Grataú (Cunhambebe)</item>
+        <item>Gravatá</item>
+        <item>Green Valleiy</item>
+        <item>Grumari</item>
+        <item>Grussaí</item>
+        <item>Guadalupe</item>
+        <item>Guandu</item>
+        <item>Guarabu</item>
+        <item>Guarani</item>
+        <item>Guararapes</item>
+        <item>Guaratiba</item>
+        <item>Guaratiba (Ponta Negra)</item>
+        <item>Guaxindiba</item>
+        <item>Habitat</item>
+        <item>Heliópolis</item>
+        <item>Hermogenio Silva</item>
+        <item>Higienópolis</item>
+        <item>Hiterland</item>
+        <item>Honório Gurgel</item>
+        <item>Horto</item>
+        <item>Horto Municipal</item>
+        <item>Humaitá</item>
+        <item>Ibitioca</item>
+        <item>Ibituporanga</item>
+        <item>Icaraí</item>
+        <item>Iconha</item>
+        <item>Ida</item>
+        <item>Iêda</item>
+        <item>Iguaba Grande</item>
+        <item>Iguaçu Velho</item>
+        <item>Ilha (Vila Inhomirim)</item>
+        <item>Ilha da Conceição</item>
+        <item>Ilha da Madeira</item>
+        <item>Imbariê</item>
+        <item>Imbaú</item>
+        <item>Imbetiba</item>
+        <item>Imbiu</item>
+        <item>Imboassica</item>
+        <item>Imburi</item>
+        <item>Imburo</item>
+        <item>Imperador</item>
+        <item>Imperial</item>
+        <item>Inconfidência</item>
+        <item>Incra</item>
+        <item>Independência</item>
+        <item>Independência (Agulhas Negras)</item>
+        <item>Indiara</item>
+        <item>Industrial</item>
+        <item>Influência</item>
+        <item>Ingá</item>
+        <item>Inhaúma</item>
+        <item>Inhoaíba</item>
+        <item>Inoã (Inoã)</item>
+        <item>Iolanda</item>
+        <item>Ipanema</item>
+        <item>Ipiabás</item>
+        <item>Ipiíba</item>
+        <item>Ipiranga</item>
+        <item>Ipiranga (Guia de Pacobaíba)</item>
+        <item>Ipitangas</item>
+        <item>Ipituna</item>
+        <item>Ips</item>
+        <item>Irajá</item>
+        <item>Iriri</item>
+        <item>Irmãos Unidos</item>
+        <item>Itacoatiara</item>
+        <item>Itacolomi</item>
+        <item>Itaí</item>
+        <item>Itaipava</item>
+        <item>Itaipu</item>
+        <item>Itajuru</item>
+        <item>Itakamozi</item>
+        <item>Itamarati</item>
+        <item>Itamarati (Visconde de Itaboraí)</item>
+        <item>Itanema (Cunhambebe)</item>
+        <item>Itanhangá</item>
+        <item>Itaoca</item>
+        <item>Itaocaia Valley (Itaipuaçu)</item>
+        <item>Itapeba</item>
+        <item>Itapuã</item>
+        <item>Itapuca</item>
+        <item>Itatiaia</item>
+        <item>Itaúna</item>
+        <item>Itaville</item>
+        <item>Itimirim</item>
+        <item>Ititioca</item>
+        <item>Iucas</item>
+        <item>Jacaré</item>
+        <item>Jacarepaguá</item>
+        <item>Jacarezinho</item>
+        <item>Jacaroá</item>
+        <item>Jaceruba</item>
+        <item>Jaconé (Ponta Negra)</item>
+        <item>Jaconé (Sampaio Correia)</item>
+        <item>Jacutinga</item>
+        <item>Japeri</item>
+        <item>Japuíba (Cunhambebe)</item>
+        <item>Jaqueira</item>
+        <item>Jardim</item>
+        <item>Jardim Acácias</item>
+        <item>Jardim Aeroporto</item>
+        <item>Jardim Aimorés</item>
+        <item>Jardim Alcântara</item>
+        <item>Jardim Alegria</item>
+        <item>Jardim Aliança</item>
+        <item>Jardim Aliança II</item>
+        <item>Jardim Aljezur</item>
+        <item>Jardim Almo</item>
+        <item>Jardim Alvorada</item>
+        <item>Jardim Alzira</item>
+        <item>Jardim Amália</item>
+        <item>Jardim Amapa</item>
+        <item>Jardim América</item>
+        <item>Jardim Americano</item>
+        <item>Jardim Anhangá</item>
+        <item>Jardim Antônio Seixas</item>
+        <item>Jardim Atlântico Central (Itaipuaçu)</item>
+        <item>Jardim Atlântico Leste (Itaipuaçu)</item>
+        <item>Jardim Atlântico Oeste (Itaipuaçu)</item>
+        <item>Jardim Balneário Ana Clara</item>
+        <item>Jardim Barro Branco</item>
+        <item>Jardim Beira Rio</item>
+        <item>Jardim Bela Vista</item>
+        <item>Jardim Belo Horizonte</item>
+        <item>Jardim Belvedere</item>
+        <item>Jardim Boa Vista</item>
+        <item>Jardim Botânico</item>
+        <item>Jardim Brasil</item>
+        <item>Jardim Brasília</item>
+        <item>Jardim Brasília 2</item>
+        <item>Jardim Cachoeira</item>
+        <item>Jardim Caiçara</item>
+        <item>Jardim Califórnia</item>
+        <item>Jardim Campo Alegre</item>
+        <item>Jardim Campomar</item>
+        <item>Jardim Canaã</item>
+        <item>Jardim Carioca</item>
+        <item>Jardim Carlos Neto (Guia de Pacobaíba)</item>
+        <item>Jardim Cascata</item>
+        <item>Jardim Catarina</item>
+        <item>Jardim Ceasa</item>
+        <item>Jardim Ceci</item>
+        <item>Jardim Central</item>
+        <item>Jardim Cidade do Aço</item>
+        <item>Jardim Continental</item>
+        <item>Jardim Corumbá</item>
+        <item>Jardim Cristina</item>
+        <item>Jardim da Paz (Guia de Pacobaíba)</item>
+        <item>Jardim da Posse</item>
+        <item>Jardim das Acácias</item>
+        <item>Jardim das Oliveiras</item>
+        <item>Jardim das Rosas</item>
+        <item>Jardim Delamare</item>
+        <item>Jardim Dimas Filho</item>
+        <item>Jardim do Sol</item>
+        <item>Jardim DOeste</item>
+        <item>Jardim Emília</item>
+        <item>Jardim Esmeralda</item>
+        <item>Jardim Esperança</item>
+        <item>Jardim Esplanada</item>
+        <item>Jardim Europa</item>
+        <item>Jardim Excelcior</item>
+        <item>Jardim Excelsior</item>
+        <item>Jardim Fátima</item>
+        <item>Jardim Faturista</item>
+        <item>Jardim Felix</item>
+        <item>Jardim Ferma</item>
+        <item>Jardim Fim de Semana</item>
+        <item>Jardim Flamboyant</item>
+        <item>Jardim Fluminense</item>
+        <item>Jardim Fonte São Miguel</item>
+        <item>Jardim Gandé</item>
+        <item>Jardim Glória</item>
+        <item>Jardim Gramacho</item>
+        <item>Jardim Guanabara</item>
+        <item>Jardim Guandu</item>
+        <item>Jardim Himalaia</item>
+        <item>Jardim Iara</item>
+        <item>Jardim Ideal</item>
+        <item>Jardim Iguaçu</item>
+        <item>Jardim Imbariê</item>
+        <item>Jardim Imbuí</item>
+        <item>Jardim Imperial</item>
+        <item>Jardim Império</item>
+        <item>Jardim Independência</item>
+        <item>Jardim Interlagos (Ponta Negra)</item>
+        <item>Jardim Itambi (Itambi)</item>
+        <item>Jardim Jalisco</item>
+        <item>Jardim Jasmim</item>
+        <item>Jardim Javari</item>
+        <item>Jardim José Bonifácio</item>
+        <item>Jardim Jurema</item>
+        <item>Jardim Jurujuba</item>
+        <item>Jardim Lagoa das Pedras</item>
+        <item>Jardim Laiá</item>
+        <item>Jardim Laranjeiras</item>
+        <item>Jardim Leal</item>
+        <item>Jardim Líder</item>
+        <item>Jardim Limoeiro</item>
+        <item>Jardim Lisboa</item>
+        <item>Jardim Lumar</item>
+        <item>Jardim Machado</item>
+        <item>Jardim Magnólia</item>
+        <item>Jardim Mar</item>
+        <item>Jardim Maracanã</item>
+        <item>Jardim Marajó</item>
+        <item>Jardim Marambaia</item>
+        <item>Jardim Mariana</item>
+        <item>Jardim Maricen</item>
+        <item>Jardim Mariléa</item>
+        <item>Jardim Marilice</item>
+        <item>Jardim Marilu</item>
+        <item>Jardim Maringá</item>
+        <item>Jardim Marques de Pombal</item>
+        <item>Jardim Martinelli</item>
+        <item>Jardim Mato Grosso</item>
+        <item>Jardim Meriti</item>
+        <item>Jardim Metrópole</item>
+        <item>Jardim Meu Retiro</item>
+        <item>Jardim Meudon</item>
+        <item>Jardim Miramar</item>
+        <item>Jardim Mirassol</item>
+        <item>Jardim Monte Castelo</item>
+        <item>Jardim Morada da Aldeia</item>
+        <item>Jardim Nacional</item>
+        <item>Jardim Natal</item>
+        <item>Jardim Náutilus</item>
+        <item>Jardim Nazaré</item>
+        <item>Jardim Nazareno (Vila Inhomirim)</item>
+        <item>Jardim Normandia</item>
+        <item>Jardim Nossa Senhora da Piedade</item>
+        <item>Jardim Nossa Senhora das Graças</item>
+        <item>Jardim Nossa Senhora de Fátima</item>
+        <item>Jardim Nossa Senhora do Carmo</item>
+        <item>Jardim Nova Califórnia</item>
+        <item>Jardim Nova Era</item>
+        <item>Jardim Nova República</item>
+        <item>Jardim Noya</item>
+        <item>Jardim Olavo Bilac</item>
+        <item>Jardim Olimpo</item>
+        <item>Jardim Olinda</item>
+        <item>Jardim Ouro Preto</item>
+        <item>Jardim Palmares</item>
+        <item>Jardim Palmira</item>
+        <item>Jardim Panamá</item>
+        <item>Jardim Paqueta</item>
+        <item>Jardim Paraíba</item>
+        <item>Jardim Paraíso</item>
+        <item>Jardim Passa Vinte</item>
+        <item>Jardim Patricia</item>
+        <item>Jardim Pernambuco</item>
+        <item>Jardim Peró</item>
+        <item>Jardim Pinheiros</item>
+        <item>Jardim Piratininga</item>
+        <item>Jardim Pitoresco</item>
+        <item>Jardim Polastri</item>
+        <item>Jardim Ponte Alta</item>
+        <item>Jardim Porangaba</item>
+        <item>Jardim Portugal</item>
+        <item>Jardim Prazeres</item>
+        <item>Jardim Primavera</item>
+        <item>Jardim Primavera I</item>
+        <item>Jardim Primavera II</item>
+        <item>Jardim Primavera III</item>
+        <item>Jardim Queimados</item>
+        <item>Jardim Real</item>
+        <item>Jardim Redentor</item>
+        <item>Jardim Riachão</item>
+        <item>Jardim Rio DOuro</item>
+        <item>Jardim Riviera (Guia de Pacobaíba)</item>
+        <item>Jardim Rosário</item>
+        <item>Jardim Rotsen</item>
+        <item>Jardim Sagrado Coração de Jesus</item>
+        <item>Jardim Salaco</item>
+        <item>Jardim Santa Branca</item>
+        <item>Jardim Santa Fé</item>
+        <item>Jardim Santa Marta</item>
+        <item>Jardim Santa Rita</item>
+        <item>Jardim Santa Rosa</item>
+        <item>Jardim Santana do Pilar</item>
+        <item>Jardim Santo Antônio</item>
+        <item>Jardim Santo Inácio</item>
+        <item>Jardim Santos Meira</item>
+        <item>Jardim São Bento</item>
+        <item>Jardim São Geraldo</item>
+        <item>Jardim São João</item>
+        <item>Jardim São Lourenço</item>
+        <item>Jardim São Sebastião</item>
+        <item>Jardim São Silvestre</item>
+        <item>Jardim São Vicente</item>
+        <item>Jardim Silvana</item>
+        <item>Jardim Soledade</item>
+        <item>Jardim Suíça</item>
+        <item>Jardim Sulacap</item>
+        <item>Jardim Sumaré</item>
+        <item>Jardim Tiradentes</item>
+        <item>Jardim Transmontano</item>
+        <item>Jardim Três Marias</item>
+        <item>Jardim Tri-Campeão</item>
+        <item>Jardim Tropical</item>
+        <item>Jardim Tupiara</item>
+        <item>Jardim Universo</item>
+        <item>Jardim Veneza</item>
+        <item>Jardim Vila Nova</item>
+        <item>Jardim Vila Rica</item>
+        <item>Jardim Vinte e Cinco de Agosto</item>
+        <item>Jardim Vista Alegre</item>
+        <item>Jardim Vitória</item>
+        <item>Jardim Willis</item>
+        <item>Jardinlândia</item>
+        <item>Jardins</item>
+        <item>Joana DArc</item>
+        <item>João Caetano (Itambi)</item>
+        <item>Joaquim de Oliveira</item>
+        <item>Jóquei Clube</item>
+        <item>José Gonçalves</item>
+        <item>Julima</item>
+        <item>Juriti</item>
+        <item>Jurujuba</item>
+        <item>Juscelino</item>
+        <item>Juscelino Kubitschek de Oliveira</item>
+        <item>Kennedy</item>
+        <item>Km 32</item>
+        <item>Ladeira das Palmeiras</item>
+        <item>Lafaiete</item>
+        <item>Lagarto</item>
+        <item>Lago Azul</item>
+        <item>Lagoa</item>
+        <item>Lagoa de Cima</item>
+        <item>Lagoinha</item>
+        <item>Lagomar</item>
+        <item>Lambert</item>
+        <item>Lambicada</item>
+        <item>Lapa</item>
+        <item>Lar Fluminense</item>
+        <item>Laranjal</item>
+        <item>Laranjal Santo Antônio</item>
+        <item>Laranjeiras</item>
+        <item>Largo da Batalha</item>
+        <item>Largo da Idéia</item>
+        <item>Largo do Barradas</item>
+        <item>Lava-pés</item>
+        <item>Lavrinhas</item>
+        <item>Leandro</item>
+        <item>Leblon</item>
+        <item>Leigos</item>
+        <item>Liberdade</item>
+        <item>Ligia</item>
+        <item>Lili</item>
+        <item>Limoeiro</item>
+        <item>Linda Vista</item>
+        <item>Lindo Parque</item>
+        <item>Lins de Vasconcelos</item>
+        <item>Lisboa</item>
+        <item>Long Beach (Tamoios)</item>
+        <item>Lote XV</item>
+        <item>Loteamento Aiuruoca</item>
+        <item>Loteamento Belo Horizonte</item>
+        <item>Loteamento Boa Vista</item>
+        <item>Loteamento Bondarovshy</item>
+        <item>Loteamento Cachoeira</item>
+        <item>Loteamento Chinês</item>
+        <item>Loteamento Cristo Redentor</item>
+        <item>Loteamento da Chácara</item>
+        <item>Loteamento Extensão do Serramar</item>
+        <item>Loteamento Floresta</item>
+        <item>Loteamento Jardim Monique</item>
+        <item>Loteamento Madean</item>
+        <item>Loteamento Morada da Colonia</item>
+        <item>Loteamento Nosso Sonho</item>
+        <item>Loteamento Praia do Coral (Tamoios)</item>
+        <item>Loteamento Primavera</item>
+        <item>Loteamento Santa Teresinha</item>
+        <item>Loteamento São João</item>
+        <item>Loteamento São José</item>
+        <item>Loteamento São Sebastião</item>
+        <item>Loteamento São Vicente</item>
+        <item>Loteamento Sitio Jacina</item>
+        <item>Loteamento Sofia</item>
+        <item>Loteamento Sonho Dourado</item>
+        <item>Lucie Danon</item>
+        <item>Luis de Camões</item>
+        <item>Luiz Caçador</item>
+        <item>Luiz de Camões</item>
+        <item>Lumiar</item>
+        <item>Luzes</item>
+        <item>Maceió</item>
+        <item>Maciéis</item>
+        <item>Mactube</item>
+        <item>Madeira</item>
+        <item>Madressilva (Bacaxá)</item>
+        <item>Madureira</item>
+        <item>Magalhães Bastos</item>
+        <item>Magemirim</item>
+        <item>Maio</item>
+        <item>Malhapão</item>
+        <item>Malvinas</item>
+        <item>Manejo</item>
+        <item>Mangueira</item>
+        <item>Manguinhos</item>
+        <item>Manoel Correa</item>
+        <item>Manoel Ribeiro (Ponta Negra)</item>
+        <item>Mantiqueira</item>
+        <item>Mantiquira</item>
+        <item>Mar do Norte</item>
+        <item>Mar Y Lago</item>
+        <item>Mara</item>
+        <item>Maracanã</item>
+        <item>Marajoara</item>
+        <item>Marambaia</item>
+        <item>Marambaia (Manilha)</item>
+        <item>Marapicu</item>
+        <item>Maraporã</item>
+        <item>Maravilha (Visconde de Itaboraí)</item>
+        <item>Maravista</item>
+        <item>Marazul</item>
+        <item>Marco II</item>
+        <item>Maré</item>
+        <item>Marechal Hermes</item>
+        <item>Maria Conga</item>
+        <item>Maria da Graça</item>
+        <item>Maria da Luz</item>
+        <item>Maria da Prata</item>
+        <item>Maria José</item>
+        <item>Maria Paula</item>
+        <item>Maria Turri</item>
+        <item>Mariana Torres</item>
+        <item>Marinas</item>
+        <item>Maringá</item>
+        <item>Marquês de Maricá</item>
+        <item>Martins Ribeiro</item>
+        <item>Massambará</item>
+        <item>Mata Paca</item>
+        <item>Matadouro</item>
+        <item>Maurimárcia (Vila Inhomirim)</item>
+        <item>Mazomba</item>
+        <item>Meia Noite (Vila Inhomirim)</item>
+        <item>Méier</item>
+        <item>Mesquita</item>
+        <item>Metalúrgica</item>
+        <item>Metalúrgico</item>
+        <item>Metrópole</item>
+        <item>Meu Cantinho</item>
+        <item>Meu Ranchinho</item>
+        <item>Meudon</item>
+        <item>Miguel Couto</item>
+        <item>Minerlândia</item>
+        <item>Miramar</item>
+        <item>Mirandópolis</item>
+        <item>Mirante das Agulhas</item>
+        <item>Mirante de Serra</item>
+        <item>Mirante do Vale</item>
+        <item>Miriambi</item>
+        <item>Moinho de Vento</item>
+        <item>Mombaça</item>
+        <item>Moneró</item>
+        <item>Monet</item>
+        <item>Monjolos</item>
+        <item>Monsuaba</item>
+        <item>Monte Café</item>
+        <item>Monte Castelo</item>
+        <item>Monte Cristo</item>
+        <item>Monte Líbano</item>
+        <item>Monte Oliveti</item>
+        <item>Monte Serrat</item>
+        <item>Monte Verde</item>
+        <item>Monte Verde (Manilha)</item>
+        <item>Montese</item>
+        <item>Montevidéu</item>
+        <item>Monumento</item>
+        <item>Moquetá</item>
+        <item>Morada da Barra</item>
+        <item>Morada da Colina</item>
+        <item>Morada da Colonia I</item>
+        <item>Morada da Felicidade</item>
+        <item>Morada da Granja</item>
+        <item>Morada da Granja II</item>
+        <item>Morada da Montanha</item>
+        <item>Morada das Garças</item>
+        <item>Morada do Bosque</item>
+        <item>Morada do Campo</item>
+        <item>Morada do Castelo</item>
+        <item>Morada do Contorno</item>
+        <item>Morada do Sol</item>
+        <item>Morada do Sol I (Itambi)</item>
+        <item>Morada do Sol II (Itambi)</item>
+        <item>Morada do Vale</item>
+        <item>Morada Verde</item>
+        <item>Morangaba</item>
+        <item>Morin</item>
+        <item>Morro Agudo</item>
+        <item>Morro Azul do Tinguá</item>
+        <item>Morro da Boa Vista (Mambucaba)</item>
+        <item>Morro da Carioca</item>
+        <item>Morro da Conquista</item>
+        <item>Morro da Cruz</item>
+        <item>Morro da CTB</item>
+        <item>Morro da Fortaleza</item>
+        <item>Morro da Glória</item>
+        <item>Morro da Glória II</item>
+        <item>Morro do Abel</item>
+        <item>Morro do Bulé</item>
+        <item>Morro do Carmo</item>
+        <item>Morro do Castro</item>
+        <item>Morro do Gama</item>
+        <item>Morro do Milagre</item>
+        <item>Morro do Moreno</item>
+        <item>Morro do Perez</item>
+        <item>Morro do Santo Antônio</item>
+        <item>Morro do Tatu</item>
+        <item>Morro dos Pregos (Bacaxá)</item>
+        <item>Morro Grande</item>
+        <item>Morro Santana</item>
+        <item>Morro São Carlos</item>
+        <item>Morro São Jorge</item>
+        <item>Mosela</item>
+        <item>Motas</item>
+        <item>Moura Brasil</item>
+        <item>Mumbuca</item>
+        <item>Mundo Novo</item>
+        <item>Muqueca</item>
+        <item>Muriqui</item>
+        <item>Mury</item>
+        <item>Mutondo</item>
+        <item>Mutuá</item>
+        <item>Mutuaguaçu</item>
+        <item>Mutuapira</item>
+        <item>Mutum</item>
+        <item>Nancilândia</item>
+        <item>Nazare</item>
+        <item>Neves</item>
+        <item>Neves (Neves)</item>
+        <item>Nhunguaçu</item>
+        <item>Niterói</item>
+        <item>Nogueira</item>
+        <item>Nossa Senhora Aparecida</item>
+        <item>Nossa Senhora da Paz</item>
+        <item>Nossa Senhora da Penha</item>
+        <item>Nossa Senhora das Graças</item>
+        <item>Nossa Senhora de Fátima</item>
+        <item>Nossa Senhora de Lourdes</item>
+        <item>Nossa Senhora de Santana</item>
+        <item>Nossa Senhora do Amparo</item>
+        <item>Nossa Senhora do Carmo</item>
+        <item>Nossa Senhora do Rosário</item>
+        <item>Nossa Senhora dos Remédios</item>
+        <item>Nova Alegria</item>
+        <item>Nova Aliança</item>
+        <item>Nova América</item>
+        <item>Nova Angra (Cunhambebe)</item>
+        <item>Nova Aroeiras</item>
+        <item>Nova Atlantica</item>
+        <item>Nova Aurora</item>
+        <item>Nova Belém</item>
+        <item>Nova Brasília</item>
+        <item>Nova Califórnia (Tamoios)</item>
+        <item>Nova Campinas</item>
+        <item>Nova Campos</item>
+        <item>Nova Cidade</item>
+        <item>Nova Esperança</item>
+        <item>Nova Grécia</item>
+        <item>Nova Holanda</item>
+        <item>Nova Iguaba</item>
+        <item>Nova Liberdade</item>
+        <item>Nova Luz</item>
+        <item>Nova Macaé</item>
+        <item>Nova Marília</item>
+        <item>Nova Niterói</item>
+        <item>Nova Orleans (Suruí)</item>
+        <item>Nova Piam</item>
+        <item>Nova Primavera</item>
+        <item>Nova Resende</item>
+        <item>Nova São Luiz</item>
+        <item>Nova São Pedro</item>
+        <item>Nova Suíça</item>
+        <item>Novo Cavaleiro</item>
+        <item>Novo Eldorado</item>
+        <item>Novo Horizonte</item>
+        <item>Novo Horizonte (Manilha)</item>
+        <item>Novo Horizonte (Vila Inhomirim)</item>
+        <item>Novo México</item>
+        <item>Novo Rio das Ostras</item>
+        <item>Novo Surubi</item>
+        <item>Novo Visconde</item>
+        <item>Núcleo Colonial São Bento</item>
+        <item>Oficinas Velhas</item>
+        <item>Ogiva</item>
+        <item>Olaria</item>
+        <item>Olavo Bilac</item>
+        <item>Olinda</item>
+        <item>Oliveira</item>
+        <item>Operário</item>
+        <item>Orindi</item>
+        <item>Orla 500 (Tamoios)</item>
+        <item>Oswaldo Cruz</item>
+        <item>Ouro Preto</item>
+        <item>Ouro Verde</item>
+        <item>Outeiro</item>
+        <item>Outeiro das Pedras</item>
+        <item>Pacheco</item>
+        <item>Paciência</item>
+        <item>Padre Josino</item>
+        <item>Padre Miguel</item>
+        <item>Paineira</item>
+        <item>Paiol</item>
+        <item>Paiol de Pólvora</item>
+        <item>Palhada</item>
+        <item>Palmeiras</item>
+        <item>Palmital</item>
+        <item>Panorama</item>
+        <item>Papucaia</item>
+        <item>Paquetá</item>
+        <item>Parada 40</item>
+        <item>Parada Amaral</item>
+        <item>Parada Angélica</item>
+        <item>Parada de Lucas</item>
+        <item>Parada Ideal</item>
+        <item>Parada Modelo</item>
+        <item>Parada Morabi</item>
+        <item>Paraíso</item>
+        <item>Paraíso (Vila Inhomirim)</item>
+        <item>Paranhos (Vila Inhomirim)</item>
+        <item>Parque A Equitativa</item>
+        <item>Parque Aeroporto</item>
+        <item>Parque Afonso</item>
+        <item>Parque Aida</item>
+        <item>Parque Aldeia</item>
+        <item>Parque Alian</item>
+        <item>Parque Almirante</item>
+        <item>Parque Alvorada</item>
+        <item>Parque Amaro</item>
+        <item>Parque Ambai</item>
+        <item>Parque Amorim</item>
+        <item>Parque Analândia</item>
+        <item>Parque Anchieta</item>
+        <item>Parque Antártica</item>
+        <item>Parque Araruama</item>
+        <item>Parque Arruda</item>
+        <item>Parque Atlântico</item>
+        <item>Parque Aurora</item>
+        <item>Parque Aurora (Itambi)</item>
+        <item>Parque Azul</item>
+        <item>Parque Balneário São Francisco</item>
+        <item>Parque Bandeirantes</item>
+        <item>Parque Bandeiras</item>
+        <item>Parque Barão do Rio Branco</item>
+        <item>Parque Bárbara</item>
+        <item>Parque Barreto</item>
+        <item>Parque Beira Mar</item>
+        <item>Parque Bela Vista</item>
+        <item>Parque Belém (Cunhambebe)</item>
+        <item>Parque Boa Sorte</item>
+        <item>Parque Boa União</item>
+        <item>Parque Boa Ventura</item>
+        <item>Parque Boa Vista</item>
+        <item>Parque Boa Vista I</item>
+        <item>Parque Boa Vista II</item>
+        <item>Parque Boneville</item>
+        <item>Parque Bonsucesso</item>
+        <item>Parque Brasília</item>
+        <item>Parque Burle</item>
+        <item>Parque Caçula (Vila Inhomirim)</item>
+        <item>Parque Caju</item>
+        <item>Parque Calabouço</item>
+        <item>Parque Califórnia</item>
+        <item>Parque Campo Lindo</item>
+        <item>Parque Ceasa</item>
+        <item>Parque Centenário</item>
+        <item>Parque Central</item>
+        <item>Parque Céu Azul</item>
+        <item>Parque Chuno</item>
+        <item>Parque Cidade Luz</item>
+        <item>Parque Colonial</item>
+        <item>Parque Colúmbia</item>
+        <item>Parque Comercial</item>
+        <item>Parque Coqueiros</item>
+        <item>Parque Corrientes</item>
+        <item>Parque Cruz Alta</item>
+        <item>Parque da Conceição</item>
+        <item>Parque das Flores</item>
+        <item>Parque das Ilhas</item>
+        <item>Parque das Missões</item>
+        <item>Parque das Palmeiras</item>
+        <item>Parque do Carmo</item>
+        <item>Parque do Imbui</item>
+        <item>Parque do Imperador</item>
+        <item>Parque do Ingá</item>
+        <item>Parque do Laranjal</item>
+        <item>Parque Dois Meninos</item>
+        <item>Parque Dom Bosco</item>
+        <item>Parque Dom João VI</item>
+        <item>Parque Dom Pedro II (Santo Aleixo)</item>
+        <item>Parque dos Artistas (Rio do Ouro)</item>
+        <item>Parque dos Artistas II (Vila Inhomirim)</item>
+        <item>Parque dos Califas</item>
+        <item>Parque dos Feirantes</item>
+        <item>Parque Duque</item>
+        <item>Parque Duque de Caxias</item>
+        <item>Parque Eldorado</item>
+        <item>Parque Elisabeth</item>
+        <item>Parque Embaixador</item>
+        <item>Parque Engenheiro Pedreira</item>
+        <item>Parque Esperança</item>
+        <item>Parque Esplanada</item>
+        <item>Parque Estoril</item>
+        <item>Parque Estrela</item>
+        <item>Parque Estrela (Vila Inhomirim)</item>
+        <item>Parque Farias</item>
+        <item>Parque Felicidade</item>
+        <item>Parque Flamboyant</item>
+        <item>Parque Fleixal</item>
+        <item>Parque Flora</item>
+        <item>Parque Floresta</item>
+        <item>Parque Fluminense</item>
+        <item>Parque Fundão</item>
+        <item>Parque Glória</item>
+        <item>Parque Grande Rio</item>
+        <item>Parque Guandu</item>
+        <item>Parque Guararapes</item>
+        <item>Parque Guarus</item>
+        <item>Parque Horizonte</item>
+        <item>Parque Imperial</item>
+        <item>Parque Império</item>
+        <item>Parque Independência</item>
+        <item>Parque Ipanema</item>
+        <item>Parque Ipiranga</item>
+        <item>Parque Ipiranga II</item>
+        <item>Parque Itaguare</item>
+        <item>Parque Itinga (Suruí)</item>
+        <item>Parque Jacimar</item>
+        <item>Parque Jardim Carioca</item>
+        <item>Parque João Maria</item>
+        <item>Parque João Pessoa</item>
+        <item>Parque Jocimar</item>
+        <item>Parque Jóquei Club</item>
+        <item>Parque Jordão</item>
+        <item>Parque Julião Nogueira</item>
+        <item>Parque Jupiranguai</item>
+        <item>Parque Juriti</item>
+        <item>Parque Lafaiete</item>
+        <item>Parque Laguna e Dourados</item>
+        <item>Parque Laranjal</item>
+        <item>Parque Leopoldina</item>
+        <item>Parque Luiz Gonzaga</item>
+        <item>Parque Luzitana</item>
+        <item>Parque Macaiba</item>
+        <item>Parque Maciel</item>
+        <item>Parque Maitá (Vila Inhomirim)</item>
+        <item>Parque Mambucaba (Mambucaba)</item>
+        <item>Parque Marabá</item>
+        <item>Parque Marau</item>
+        <item>Parque Maria da Fonte</item>
+        <item>Parque Maria Teresa</item>
+        <item>Parque Marilandia</item>
+        <item>Parque Marina (Bacaxá)</item>
+        <item>Parque Martinho</item>
+        <item>Parque Moderno</item>
+        <item>Parque Monte Rose (Rio do Ouro)</item>
+        <item>Parque Mucaja</item>
+        <item>Parque Muísa</item>
+        <item>Parque Nanci</item>
+        <item>Parque Nossa Senhora Aparecida</item>
+        <item>Parque Nossa Senhora da Ajuda</item>
+        <item>Parque Nossa Senhora da Penha</item>
+        <item>Parque Nova Aurea</item>
+        <item>Parque Nova Esperança</item>
+        <item>Parque Nova Friburgo (Sambaetiba)</item>
+        <item>Parque Novo Jockey</item>
+        <item>Parque Novo Mundo</item>
+        <item>Parque Novo Rio</item>
+        <item>Parque Palmeiras</item>
+        <item>Parque Panorama</item>
+        <item>Parque Paraíso</item>
+        <item>Parque Paulicéia</item>
+        <item>Parque Paulista</item>
+        <item>Parque Pecuária</item>
+        <item>Parque Penha</item>
+        <item>Parque Peraflor</item>
+        <item>Parque Perequê (Mambucaba)</item>
+        <item>Parque Prazeres</item>
+        <item>Parque Presidente Dutra</item>
+        <item>Parque Presidente Vargas</item>
+        <item>Parque Primavera</item>
+        <item>Parque Princesa Isabel</item>
+        <item>Parque Professor João de Maria</item>
+        <item>Parque Real</item>
+        <item>Parque Recreio Dom Pedro II (Guia de Pacobaíba)</item>
+        <item>Parque Redentor</item>
+        <item>Parque Regina</item>
+        <item>Parque Renascenca</item>
+        <item>Parque Residencial Gisela</item>
+        <item>Parque Residencial Guadalajara</item>
+        <item>Parque Residencial Solares</item>
+        <item>Parque Riviera</item>
+        <item>Parque Rodilandia</item>
+        <item>Parque Rodilar</item>
+        <item>Parque Rodilvania</item>
+        <item>Parque Rodoviário</item>
+        <item>Parque Rosa do Sertão</item>
+        <item>Parque Rosário</item>
+        <item>Parque Roseiral</item>
+        <item>Parque Rui Barbosa</item>
+        <item>Parque Salo Brand</item>
+        <item>Parque Samira</item>
+        <item>Parque Samirópolis</item>
+        <item>Parque Santa Branca</item>
+        <item>Parque Santa Clara</item>
+        <item>Parque Santa Eugênia</item>
+        <item>Parque Santa Helena</item>
+        <item>Parque Santa Lúcia</item>
+        <item>Parque Santa Maria</item>
+        <item>Parque Santa Marta</item>
+        <item>Parque Santa Rita</item>
+        <item>Parque Santa Rosa</item>
+        <item>Parque Santana</item>
+        <item>Parque Santana (Vila Inhomirim)</item>
+        <item>Parque Santiago</item>
+        <item>Parque Santo Amaro</item>
+        <item>Parque Santo Antônio</item>
+        <item>Parque Santos Dumont</item>
+        <item>Parque São Bartolomeu</item>
+        <item>Parque São Benedito</item>
+        <item>Parque São Bento</item>
+        <item>Parque São Bernardo</item>
+        <item>Parque São Caetano</item>
+        <item>Parque São Carlos</item>
+        <item>Parque São Clemente</item>
+        <item>Parque São Domingos</item>
+        <item>Parque São João</item>
+        <item>Parque São Joaquim</item>
+        <item>Parque São Jorge</item>
+        <item>Parque São José</item>
+        <item>Parque São Judas Tadeu</item>
+        <item>Parque São Lucas</item>
+        <item>Parque São Luiz</item>
+        <item>Parque São Marcelo</item>
+        <item>Parque São Mateus</item>
+        <item>Parque São Nicolau</item>
+        <item>Parque São Pedro de Alcantara</item>
+        <item>Parque São Roque</item>
+        <item>Parque São Sebastião</item>
+        <item>Parque São Silvestre</item>
+        <item>Parque São Tiago</item>
+        <item>Parque São Vicente de Paulo</item>
+        <item>Parque Sarandi</item>
+        <item>Parque Sarapuí</item>
+        <item>Parque Saudade</item>
+        <item>Parque Saxonia</item>
+        <item>Parque Sayonara (Vila Inhomirim)</item>
+        <item>Parque Sayonara II (Vila Inhomirim)</item>
+        <item>Parque Senhor do Bonfim</item>
+        <item>Parque Silvestre</item>
+        <item>Parque Siqueira</item>
+        <item>Parque Tamandaré</item>
+        <item>Parque Tarcisio Miranda</item>
+        <item>Parque Teles de Menezes</item>
+        <item>Parque Tietê</item>
+        <item>Parque Todos os Santos</item>
+        <item>Parque Triunfo</item>
+        <item>Parque Tropical</item>
+        <item>Parque Tupiara</item>
+        <item>Parque Turf Club</item>
+        <item>Parque Ulisses</item>
+        <item>Parque Umari</item>
+        <item>Parque União</item>
+        <item>Parque União 4</item>
+        <item>Parque Uruguaiana</item>
+        <item>Parque Valdairosa</item>
+        <item>Parque Varanda do Visconde</item>
+        <item>Parque Veneza</item>
+        <item>Parque Veneza (Vila Inhomirim)</item>
+        <item>Parque Vera Cruz</item>
+        <item>Parque Vicente Gonçalves Dias</item>
+        <item>Parque Vila Nova</item>
+        <item>Parque Visconde de Ururaí</item>
+        <item>Parque Vitória</item>
+        <item>Parque Xerém</item>
+        <item>Parque Zabulão</item>
+        <item>Parque Zuza Mota</item>
+        <item>Passagem</item>
+        <item>Pátio da Estação</item>
+        <item>Patronato</item>
+        <item>Pau Cheiroso</item>
+        <item>Pau Grande (Vila Inhomirim)</item>
+        <item>Pau Rachado</item>
+        <item>Pau Rolou</item>
+        <item>Pauline</item>
+        <item>Pavuna</item>
+        <item>Paz</item>
+        <item>Pe Pequeno</item>
+        <item>Pechincha</item>
+        <item>Pedra de Guaratiba</item>
+        <item>Pedra Lisa</item>
+        <item>Pedreira</item>
+        <item>Pedro Carlos</item>
+        <item>Pedro do Rio</item>
+        <item>Peixoto</item>
+        <item>Penápolis</item>
+        <item>Pendotiba</item>
+        <item>Penha</item>
+        <item>Penha Circular</item>
+        <item>Perissê</item>
+        <item>Peró</item>
+        <item>Peroba</item>
+        <item>Peróbas (Pachecos)</item>
+        <item>Pessegueiros</item>
+        <item>Piabas</item>
+        <item>Piabetá (Inhomirim)</item>
+        <item>Piam</item>
+        <item>Pião</item>
+        <item>Pico (Santo Aleixo)</item>
+        <item>Picos</item>
+        <item>Piedade</item>
+        <item>Pilar</item>
+        <item>Pilares</item>
+        <item>Pilões</item>
+        <item>Pilotos</item>
+        <item>Pimenteiras</item>
+        <item>Pindobal (Ponta Negra)</item>
+        <item>Pindobas</item>
+        <item>Pinheiros</item>
+        <item>Pinto da Serra</item>
+        <item>Pioneiro</item>
+        <item>Pipeiras</item>
+        <item>Piranema</item>
+        <item>Pirapetinga</item>
+        <item>Piraquara (Cunhambebe)</item>
+        <item>Piratininga</item>
+        <item>Pita</item>
+        <item>Pitangueiras</item>
+        <item>Piteiras</item>
+        <item>Planetário</item>
+        <item>Poço Bento</item>
+        <item>Poço Escuro (Santo Aleixo)</item>
+        <item>Poço Fundo</item>
+        <item>Poço Gordo</item>
+        <item>Pólo Industrial</item>
+        <item>Pombal</item>
+        <item>Ponta da Lama</item>
+        <item>Ponta da Ribeira (Cunhambebe)</item>
+        <item>Ponta DAreia</item>
+        <item>Ponta do Ambrósio</item>
+        <item>Ponta do Sapê (Cunhambebe)</item>
+        <item>Ponta Grossa</item>
+        <item>Ponta Grossa dos Fidalgos</item>
+        <item>Ponta Leste</item>
+        <item>Ponta Negra (Ponta Negra)</item>
+        <item>Pontal (Cunhambebe)</item>
+        <item>Pontal do Partido (Cunhambebe)</item>
+        <item>Ponte Alta</item>
+        <item>Ponte da Saudade</item>
+        <item>Ponte das Garças</item>
+        <item>Ponte de Zinco</item>
+        <item>Ponte do Andrade</item>
+        <item>Ponte Nova</item>
+        <item>Ponte Preta</item>
+        <item>Ponte Seca</item>
+        <item>Ponte Vermelha</item>
+        <item>Ponto Azul</item>
+        <item>Ponto Chic</item>
+        <item>Ponto de Cacimbas</item>
+        <item>Portão do Rosa</item>
+        <item>Portão Vermelho</item>
+        <item>Portela</item>
+        <item>Portinho</item>
+        <item>Porto da Aldeia</item>
+        <item>Porto da Madama</item>
+        <item>Porto da Pedra</item>
+        <item>Porto da Roça I</item>
+        <item>Porto da Roça II (Bacaxá)</item>
+        <item>Porto das Barcas</item>
+        <item>Porto do Carro</item>
+        <item>Porto do Rosa</item>
+        <item>Porto Novo</item>
+        <item>Porto Velho</item>
+        <item>Portogalo</item>
+        <item>Portuguesa</item>
+        <item>Posse</item>
+        <item>Posse dos Coutinhos</item>
+        <item>Praça da Bandeira</item>
+        <item>Praça João Pessoa</item>
+        <item>Praça Seca</item>
+        <item>Prado</item>
+        <item>Prados Verdes</item>
+        <item>Praia Brava (Mambucaba)</item>
+        <item>Praia Campista</item>
+        <item>Praia da Bandeira</item>
+        <item>Praia da Chácara</item>
+        <item>Praia da Esperança (Guia de Pacobaíba)</item>
+        <item>Praia da Ribeira (Cunhambebe)</item>
+        <item>Praia das Goiabas (Mambucaba)</item>
+        <item>Praia de Itaipuaçu (Itaipuaçu)</item>
+        <item>Praia de Olaria (Guia de Pacobaíba)</item>
+        <item>Praia de Santa Clara</item>
+        <item>Praia do Açu</item>
+        <item>Praia do Anil</item>
+        <item>Praia do Anil (Guia de Pacobaíba)</item>
+        <item>Praia do Imperador (Guia de Pacobaíba)</item>
+        <item>Praia do Jardim</item>
+        <item>Praia do Pecado</item>
+        <item>Praia do Siqueira</item>
+        <item>Praia do Sudoeste</item>
+        <item>Praia dos Sonhos</item>
+        <item>Praia Grande</item>
+        <item>Praia Linda</item>
+        <item>Praia Mar</item>
+        <item>Praia Seca</item>
+        <item>Praia Vermelha (Mambucaba)</item>
+        <item>Prata</item>
+        <item>Prata dos Aredes</item>
+        <item>Primavera</item>
+        <item>Primus</item>
+        <item>Professor Souza</item>
+        <item>Progresso</item>
+        <item>Providência</item>
+        <item>Provisória</item>
+        <item>Prq</item>
+        <item>Purilândia</item>
+        <item>Purys</item>
+        <item>Quarteirão Brasileiro</item>
+        <item>Quarteirão Ingelheim</item>
+        <item>Quartéis</item>
+        <item>Quarto Centenário</item>
+        <item>Quatis</item>
+        <item>Quatorze de Julho</item>
+        <item>Quebra Coco</item>
+        <item>Quebra Frascos</item>
+        <item>Quebra Vidro</item>
+        <item>Queimados</item>
+        <item>Química</item>
+        <item>Quinta da Barra</item>
+        <item>Quinta da Piedade</item>
+        <item>Quinta dos Colibris (Sambaetiba)</item>
+        <item>Quinta Lebrão</item>
+        <item>Quinta Mariana</item>
+        <item>Quintino Bocaiúva</item>
+        <item>Quirino</item>
+        <item>Quissamã</item>
+        <item>Quitandinha</item>
+        <item>Raia (Bacaxá)</item>
+        <item>Ramos</item>
+        <item>Rancho Alegre</item>
+        <item>Rancho Fundo</item>
+        <item>Rancho Novo</item>
+        <item>Raposo</item>
+        <item>Rasa</item>
+        <item>Raul Veiga</item>
+        <item>Realengo</item>
+        <item>Recanto</item>
+        <item>Recanto das Dunas</item>
+        <item>Recanto das Orquídeas</item>
+        <item>Recanto de Itaipuaçu (Itaipuaçu)</item>
+        <item>Recanto do Sol</item>
+        <item>Recanto dos Magalhães (Cabuçu)</item>
+        <item>Recanto Santo Antônio</item>
+        <item>Recantus</item>
+        <item>Recreio</item>
+        <item>Recreio dos Bandeirantes</item>
+        <item>Recreio dos Jornalistas</item>
+        <item>Recreio dos Laranjais</item>
+        <item>Recreio Paco da Marambaia</item>
+        <item>Redentor</item>
+        <item>Reduto da Paz</item>
+        <item>Represa</item>
+        <item>Reserva do Peró</item>
+        <item>Residencial Camping do Bosque</item>
+        <item>Residencial Porto Seguro</item>
+        <item>Residencial Rio das Ostras</item>
+        <item>Residências do Campo</item>
+        <item>Residências do Vale</item>
+        <item>Restinga de Maricá</item>
+        <item>Retiro</item>
+        <item>Retiro (Bacaxá)</item>
+        <item>Retiro (Cunhambebe)</item>
+        <item>Retiro do Alcântara</item>
+        <item>Retiro dos Califas</item>
+        <item>Retiro Poético</item>
+        <item>Retiro Santa Isabel</item>
+        <item>Retiro São Joaquim</item>
+        <item>Riachão</item>
+        <item>Riachuelo</item>
+        <item>Rialto</item>
+        <item>Ribaslandia</item>
+        <item>Ribeira</item>
+        <item>Ribeirão das Lajes</item>
+        <item>Ribeirão de São Joaquim</item>
+        <item>Ricardo de Albuquerque</item>
+        <item>Rincão Mimoso (Itaipuaçu)</item>
+        <item>Rio Comprido</item>
+        <item>Rio da Areia (Bacaxá)</item>
+        <item>Rio das Flores</item>
+        <item>Rio do Ouro</item>
+        <item>Rio Dourado</item>
+        <item>Rio Douro</item>
+        <item>Rio Seco (Bacaxá)</item>
+        <item>Rio Várzea</item>
+        <item>Riograndina</item>
+        <item>Riviera Fluminense</item>
+        <item>Roberto Silveira</item>
+        <item>Rocha</item>
+        <item>Rocha Leão</item>
+        <item>Rocha Miranda</item>
+        <item>Rocha Sobrinho</item>
+        <item>Rocinha</item>
+        <item>Rodilândia</item>
+        <item>Rodoviário</item>
+        <item>Roma</item>
+        <item>Roncador</item>
+        <item>Rosa dos Ventos</item>
+        <item>Rosa Machado</item>
+        <item>Roseira</item>
+        <item>Roseiral</item>
+        <item>Roselândia</item>
+        <item>Rua do Fogo</item>
+        <item>Rui Sanglard</item>
+        <item>Rústico</item>
+        <item>Sabonete</item>
+        <item>Saco</item>
+        <item>Sacopa</item>
+        <item>Sacramento</item>
+        <item>Saldanha Marinho</item>
+        <item>Salgueiro</item>
+        <item>Sam Remo</item>
+        <item>Samambaia</item>
+        <item>Samburá (Tamoios)</item>
+        <item>Sampaio</item>
+        <item>Sampaio (Vila Inhomirim)</item>
+        <item>Sampaio Correia (Sampaio Correia)</item>
+        <item>Sana</item>
+        <item>Sans Souci</item>
+        <item>Santa Alice</item>
+        <item>Santa Amélia</item>
+        <item>Santa Anita</item>
+        <item>Santa Bárbara</item>
+        <item>Santa Cândida</item>
+        <item>Santa Catarina</item>
+        <item>Santa Cecília</item>
+        <item>Santa Clara</item>
+        <item>Santa Clara do Guandu</item>
+        <item>Santa Cruz</item>
+        <item>Santa Cruz da Serra</item>
+        <item>Santa Cruz II</item>
+        <item>Santa Dalila (Suruí)</item>
+        <item>Santa Elisa</item>
+        <item>Santa Emilia</item>
+        <item>Santa Eufenia</item>
+        <item>Santa Eugênia</item>
+        <item>Santa Helena</item>
+        <item>Santa Ines</item>
+        <item>Santa Isabel</item>
+        <item>Santa Isabel do Rio Preto</item>
+        <item>Santa Izabel</item>
+        <item>Santa Lúcia</item>
+        <item>Santa Luzia</item>
+        <item>Santa Margarida I (Tamoios)</item>
+        <item>Santa Margarida II (Tamoios)</item>
+        <item>Santa Maria</item>
+        <item>Santa Maria I</item>
+        <item>Santa Maria II</item>
+        <item>Santa Maria III</item>
+        <item>Santa Mônica</item>
+        <item>Santa Paula (Inoã)</item>
+        <item>Santa Rita</item>
+        <item>Santa Rita de Cássia</item>
+        <item>Santa Rita do Bracuí (Cunhambebe)</item>
+        <item>Santa Rita do Zarur</item>
+        <item>Santa Rosa</item>
+        <item>Santa Rosa Lagomar</item>
+        <item>Santa Sofia</item>
+        <item>Santa Teresa</item>
+        <item>Santa Teresinha</item>
+        <item>Santa Tereza</item>
+        <item>Santa Terezinha</item>
+        <item>Santana</item>
+        <item>Santana da Barra</item>
+        <item>Santíssimo</item>
+        <item>Santo Agostinho</item>
+        <item>Santo Amaro</item>
+        <item>Santo André</item>
+        <item>Santo Antônio</item>
+        <item>Santo Antônio (Manilha)</item>
+        <item>Santo Antônio (Tamoios)</item>
+        <item>Santo Antônio da Prata</item>
+        <item>Santo Antônio da Serra</item>
+        <item>Santo Cristo</item>
+        <item>Santo Eduardo</item>
+        <item>Santo Elias</item>
+        <item>Santo Expedito</item>
+        <item>Santo Tirco</item>
+        <item>Santos Neves</item>
+        <item>São Benedito</item>
+        <item>São Bento</item>
+        <item>São Bernardo</item>
+        <item>São Bras</item>
+        <item>São Caetano</item>
+        <item>São Carlos</item>
+        <item>São Conrado</item>
+        <item>São Cristóvão</item>
+        <item>São Domingos</item>
+        <item>São Francisco</item>
+        <item>São Francisco de Assis</item>
+        <item>São Francisco do Cruará (Guia de Pacobaíba)</item>
+        <item>São Francisco Xavier</item>
+        <item>São Gabriel</item>
+        <item>São Genaro</item>
+        <item>São Geraldo</item>
+        <item>São Geraldo (Bacaxá)</item>
+        <item>São Humberto</item>
+        <item>São João</item>
+        <item>São João Batista</item>
+        <item>São João do Paraíso</item>
+        <item>São Joaquim</item>
+        <item>São Jorge</item>
+        <item>São José</item>
+        <item>São José (Cabuçu)</item>
+        <item>São José da Cachoeira (Rio do Ouro)</item>
+        <item>São José do Barreto</item>
+        <item>São José do Imbassaí</item>
+        <item>São José do Turvo</item>
+        <item>São Judas Tadeu</item>
+        <item>São Leopoldo</item>
+        <item>São Lourenço</item>
+        <item>São Lourenço (Guia de Pacobaíba)</item>
+        <item>São Lucas</item>
+        <item>São Luís</item>
+        <item>São Luiz</item>
+        <item>São Luiz Gonzaga</item>
+        <item>São Manuel</item>
+        <item>São Marcos</item>
+        <item>São Martinho</item>
+        <item>São Mateus</item>
+        <item>São Miguel</item>
+        <item>São Miguel (Manilha)</item>
+        <item>São Paulo</item>
+        <item>São Pedro</item>
+        <item>São Pedro da Serra</item>
+        <item>São Pedro de Alcântara</item>
+        <item>São Pedro do Paraíso</item>
+        <item>São Roque</item>
+        <item>São Salvador</item>
+        <item>São Sebastião</item>
+        <item>São Sebastião de Campos</item>
+        <item>São Silvestre</item>
+        <item>São Simão</item>
+        <item>São Vicente</item>
+        <item>São Vicente de Paula</item>
+        <item>Sapê</item>
+        <item>Sapinhatuba I</item>
+        <item>Sapinhatuba III</item>
+        <item>Saracuruna</item>
+        <item>Sarapó</item>
+        <item>Sardoal</item>
+        <item>Saturnino Braga</item>
+        <item>Saudade</item>
+        <item>Saúde</item>
+        <item>Sebastiana</item>
+        <item>Segredo</item>
+        <item>Senador Camará</item>
+        <item>Senador Vasconcelos</item>
+        <item>Sepetiba</item>
+        <item>Sergeira</item>
+        <item>Seropedica</item>
+        <item>Serra</item>
+        <item>Serra das Almas</item>
+        <item>Serra de Mato Grosso (Sampaio Correia)</item>
+        <item>Serra do Capim</item>
+        <item>Serra do Palmital</item>
+        <item>Serra Grande</item>
+        <item>Serramar</item>
+        <item>Serraville</item>
+        <item>Serrinha</item>
+        <item>Sessenta</item>
+        <item>Sete Pontes</item>
+        <item>Shangri-lá</item>
+        <item>Siag</item>
+        <item>Siderlandia</item>
+        <item>Siderópolis</item>
+        <item>Sidervile</item>
+        <item>Silva</item>
+        <item>Silva Cardoso</item>
+        <item>Silvado</item>
+        <item>Simeria</item>
+        <item>Sion</item>
+        <item>Sitio Bela Esperança</item>
+        <item>Sítio dos Gansos</item>
+        <item>Sitio Floresta</item>
+        <item>Sitio Floresta Linda</item>
+        <item>Sitio Novo Oriente</item>
+        <item>Sitio Retiro Feliz</item>
+        <item>Soberbo</item>
+        <item>Sobradinho</item>
+        <item>Sobradinho Cerveja</item>
+        <item>Sol e Mar</item>
+        <item>Soledade</item>
+        <item>Somel</item>
+        <item>Sossego</item>
+        <item>Souto Maior</item>
+        <item>Spar (Inoã)</item>
+        <item>Sublime</item>
+        <item>Suíço</item>
+        <item>Surubi</item>
+        <item>Taboinha</item>
+        <item>Tanguá</item>
+        <item>Tanque</item>
+        <item>Tapera</item>
+        <item>Taquara</item>
+        <item>Tauá</item>
+        <item>Taumaturgo</item>
+        <item>Teixeiras</item>
+        <item>Tenente Jardim</item>
+        <item>Teofilo Cunha</item>
+        <item>Terra Firme</item>
+        <item>Terramar (Tamoios)</item>
+        <item>Terras Alpha</item>
+        <item>Terras do Contorno</item>
+        <item>Theodoro de Oliveira</item>
+        <item>Tijuca</item>
+        <item>Tinguá</item>
+        <item>Tinguazinho</item>
+        <item>Tinguí (Sampaio Correia)</item>
+        <item>Tiradentes</item>
+        <item>Todos os Santos</item>
+        <item>Tomás Coelho</item>
+        <item>Tomazinho</item>
+        <item>Toyota I</item>
+        <item>Toyota II</item>
+        <item>Trapiche</item>
+        <item>Travessão</item>
+        <item>Travessão da Barra</item>
+        <item>Três Corações</item>
+        <item>Três Córregos</item>
+        <item>Três Fontes</item>
+        <item>Três Ilhas</item>
+        <item>Três Poços</item>
+        <item>Três Pontes</item>
+        <item>Três Vendas</item>
+        <item>Trezentos</item>
+        <item>Triangulo</item>
+        <item>Tribobó</item>
+        <item>Trindade</item>
+        <item>Trombetas</item>
+        <item>Tubiacanga</item>
+        <item>Turiaçu</item>
+        <item>Turistico Serra de Madureira</item>
+        <item>Ubatiba</item>
+        <item>UFRRJ</item>
+        <item>Unamar (Tamoios)</item>
+        <item>Urca</item>
+        <item>Ururaí</item>
+        <item>Usina Nuclear (Cunhambebe)</item>
+        <item>Usina Santa Isabel</item>
+        <item>Usina Santa Maria</item>
+        <item>Valão dos Milagres</item>
+        <item>Valdariosa</item>
+        <item>Vale da Figueira (Ponta Negra)</item>
+        <item>Vale da Simpatia</item>
+        <item>Vale das Pedrinhas</item>
+        <item>Vale do Carangola</item>
+        <item>Vale do Ipê</item>
+        <item>Vale do Ipiranga</item>
+        <item>Vale do Paraíba</item>
+        <item>Vale do Paraíso</item>
+        <item>Vale do Sol</item>
+        <item>Vale dos Pinheiros</item>
+        <item>Vale dos Reis</item>
+        <item>Vale Encantado</item>
+        <item>Vale Feliz</item>
+        <item>Vale Jequitibá</item>
+        <item>Vale Verde</item>
+        <item>Valparaíso</item>
+        <item>Valverde</item>
+        <item>Vargem Alegre</item>
+        <item>Vargem Grande</item>
+        <item>Vargem Pequena</item>
+        <item>Varges</item>
+        <item>Varginha</item>
+        <item>Várzea</item>
+        <item>Várzea Alegre</item>
+        <item>Várzea das Moças</item>
+        <item>Vasco da Gama</item>
+        <item>Vaz Lobo</item>
+        <item>Venda da Cruz</item>
+        <item>Venda das Pedras</item>
+        <item>Venda Nova</item>
+        <item>Venda Velha</item>
+        <item>Vera Cruz</item>
+        <item>Verão Vermelho (Tamoios)</item>
+        <item>Verbo Divino</item>
+        <item>Verde Vale (Bacaxá)</item>
+        <item>Verdes Mares</item>
+        <item>Verolme</item>
+        <item>Viana</item>
+        <item>Vicente de Carvalho</item>
+        <item>Vicentino</item>
+        <item>Vidigal</item>
+        <item>Vieira</item>
+        <item>Viga</item>
+        <item>Vigário Geral</item>
+        <item>Vila Abolição</item>
+        <item>Vila Actura</item>
+        <item>Vila Adelaide</item>
+        <item>Vila Aida</item>
+        <item>Vila Alto Lindo</item>
+        <item>Vila Amélia</item>
+        <item>Vila Americana</item>
+        <item>Vila Andorinhas</item>
+        <item>Vila Angélica</item>
+        <item>Vila Anita</item>
+        <item>Vila Apolo</item>
+        <item>Vila Araci (Imbariê)</item>
+        <item>Vila Atlântica</item>
+        <item>Vila Aurora</item>
+        <item>Vila Avante</item>
+        <item>Vila Avelina</item>
+        <item>Vila Bandeirantes</item>
+        <item>Vila Beira do Taí</item>
+        <item>Vila Bela Vista</item>
+        <item>Vila Belga</item>
+        <item>Vila Bernadete</item>
+        <item>Vila Blanche</item>
+        <item>Vila Bom Jardim</item>
+        <item>Vila Bonança</item>
+        <item>Vila Bonanza</item>
+        <item>Vila Borgerth</item>
+        <item>Vila Borges</item>
+        <item>Vila Brasil (Manilha)</item>
+        <item>Vila Brasília</item>
+        <item>Vila Caetano Madeira</item>
+        <item>Vila Caiçaras</item>
+        <item>Vila Camarim</item>
+        <item>Vila Campanaro</item>
+        <item>Vila Canaan</item>
+        <item>Vila Candoza</item>
+        <item>Vila Capixaba</item>
+        <item>Vila Carlota</item>
+        <item>Vila Carmelita</item>
+        <item>Vila Carvalho (Vila Inhomirim)</item>
+        <item>Vila Catia</item>
+        <item>Vila Catulina</item>
+        <item>Vila Centenário</item>
+        <item>Vila Central</item>
+        <item>Vila Citrolândia (Santo Aleixo)</item>
+        <item>Vila Cocota</item>
+        <item>Vila Colúmbia</item>
+        <item>Vila Constança de Calvos</item>
+        <item>Vila Coqueiros</item>
+        <item>Vila Coringa</item>
+        <item>Vila Cosme e Damião</item>
+        <item>Vila Crista</item>
+        <item>Vila da Liberdade</item>
+        <item>Vila da Penha</item>
+        <item>Vila da Petrobrás</item>
+        <item>Vila da Rainha</item>
+        <item>Vila Dagmar</item>
+        <item>Vila das Mangueiras</item>
+        <item>Vila das Porteiras</item>
+        <item>Vila de Cava</item>
+        <item>Vila Dias Lopes</item>
+        <item>Vila do Abraão (Abraão)</item>
+        <item>Vila do Pião</item>
+        <item>Vila do Sol</item>
+        <item>Vila do Tinguá</item>
+        <item>Vila Dona Branca</item>
+        <item>Vila dos Araújos</item>
+        <item>Vila dos Guedes</item>
+        <item>Vila dos Pescadores</item>
+        <item>Vila Elmira</item>
+        <item>Vila Ema</item>
+        <item>Vila Emil</item>
+        <item>Vila Era</item>
+        <item>Vila Eros</item>
+        <item>Vila Esperança</item>
+        <item>Vila Esperança (Vila Inhomirim)</item>
+        <item>Vila Esteves</item>
+        <item>Vila Fátima</item>
+        <item>Vila Flávia</item>
+        <item>Vila Floriano</item>
+        <item>Vila Fluminense</item>
+        <item>Vila Formosa</item>
+        <item>Vila Gabriela (Manilha)</item>
+        <item>Vila Gaúcha</item>
+        <item>Vila Gentil</item>
+        <item>Vila Geny</item>
+        <item>Vila Gomes</item>
+        <item>Vila Gratidão</item>
+        <item>Vila Guanabara</item>
+        <item>Vila Guarani</item>
+        <item>Vila Guarita</item>
+        <item>Vila Guimarães</item>
+        <item>Vila Helena</item>
+        <item>Vila Heliopolis</item>
+        <item>Vila Herminia Maia</item>
+        <item>Vila Histórica de Mambucaba (Mambucaba)</item>
+        <item>Vila Hulda Rocha</item>
+        <item>Vila Humaitá</item>
+        <item>Vila Iara</item>
+        <item>Vila Ibirapitanga</item>
+        <item>Vila Ideal</item>
+        <item>Vila Iguaçuana</item>
+        <item>Vila Inca</item>
+        <item>Vila Independência</item>
+        <item>Vila Industrial</item>
+        <item>Vila Iracema</item>
+        <item>Vila Irene</item>
+        <item>Vila Isabel</item>
+        <item>Vila Itaci</item>
+        <item>Vila Itamarati</item>
+        <item>Vila Japeri</item>
+        <item>Vila João Correia</item>
+        <item>Vila João Rodrigues</item>
+        <item>Vila Joema</item>
+        <item>Vila Jola</item>
+        <item>Vila José</item>
+        <item>Vila Josefina</item>
+        <item>Vila Julieta</item>
+        <item>Vila Jurandir</item>
+        <item>Vila Jurema</item>
+        <item>Vila Kosmos</item>
+        <item>Vila Lage</item>
+        <item>Vila Laís</item>
+        <item>Vila Leonora</item>
+        <item>Vila Leopoldina</item>
+        <item>Vila Lina</item>
+        <item>Vila Luz</item>
+        <item>Vila Maia</item>
+        <item>Vila Maranhão</item>
+        <item>Vila Margarida</item>
+        <item>Vila Maria</item>
+        <item>Vila Maria Céu</item>
+        <item>Vila Maria Helena</item>
+        <item>Vila Maricá</item>
+        <item>Vila Marileia</item>
+        <item>Vila Marilia</item>
+        <item>Vila Marina</item>
+        <item>Vila Marines</item>
+        <item>Vila Maringá</item>
+        <item>Vila Marpiza</item>
+        <item>Vila Marquesa de Santos</item>
+        <item>Vila Martins</item>
+        <item>Vila Matilde</item>
+        <item>Vila Medeiros</item>
+        <item>Vila Menezes</item>
+        <item>Vila Mercúrio</item>
+        <item>Vila Meriti</item>
+        <item>Vila Militar</item>
+        <item>Vila Moderna</item>
+        <item>Vila Monjardim</item>
+        <item>Vila Morro Agudo</item>
+        <item>Vila Muqui</item>
+        <item>Vila Muriqui</item>
+        <item>Vila Mury</item>
+        <item>Vila Nadir</item>
+        <item>Vila Nanci</item>
+        <item>Vila Nascente</item>
+        <item>Vila Norma</item>
+        <item>Vila Nossa Senhora Aparecida</item>
+        <item>Vila Nossa Senhora da Conceição</item>
+        <item>Vila Nossa Senhora das Graças</item>
+        <item>Vila Nossa Senhora de Fátima</item>
+        <item>Vila Nossa Senhora do Rosário</item>
+        <item>Vila Nova</item>
+        <item>Vila Nova (Suruí)</item>
+        <item>Vila Nova do Couto</item>
+        <item>Vila Oito de Maio</item>
+        <item>Vila Olímpia</item>
+        <item>Vila Olimpio Alves</item>
+        <item>Vila Olorum</item>
+        <item>Vila Omega</item>
+        <item>Vila Operária</item>
+        <item>Vila Orlandelia</item>
+        <item>Vila Ouro Preto</item>
+        <item>Vila Pacaembu</item>
+        <item>Vila Pacheco da Rocha</item>
+        <item>Vila Palmeiras</item>
+        <item>Vila Paraíso</item>
+        <item>Vila Paula</item>
+        <item>Vila Paula Zander</item>
+        <item>Vila Paulista</item>
+        <item>Vila Pedro I</item>
+        <item>Vila Piabetá (Vila Inhomirim)</item>
+        <item>Vila Posse</item>
+        <item>Vila Principal</item>
+        <item>Vila Progresso</item>
+        <item>Vila Quita</item>
+        <item>Vila Real</item>
+        <item>Vila Recreio (Vila Inhomirim)</item>
+        <item>Vila Resende</item>
+        <item>Vila Rica</item>
+        <item>Vila Rica Ouro Verde</item>
+        <item>Vila Rosali</item>
+        <item>Vila Rosário</item>
+        <item>Vila Sacra Família</item>
+        <item>Vila Santa Alice</item>
+        <item>Vila Santa Amélia</item>
+        <item>Vila Santa Catarina</item>
+        <item>Vila Santa Cecília</item>
+        <item>Vila Santa Cruz</item>
+        <item>Vila Santa Helena</item>
+        <item>Vila Santa Luzia</item>
+        <item>Vila Santa Maria</item>
+        <item>Vila Santa Rita</item>
+        <item>Vila Santa Teresa</item>
+        <item>Vila Santa Teresinha de Jesus</item>
+        <item>Vila Santo Antônio</item>
+        <item>Vila Santos Neto</item>
+        <item>Vila São Domingos</item>
+        <item>Vila São Francisco</item>
+        <item>Vila São João</item>
+        <item>Vila São Joaquim</item>
+        <item>Vila São Jorge</item>
+        <item>Vila São José</item>
+        <item>Vila São Judas Tadeu</item>
+        <item>Vila São Luis</item>
+        <item>Vila São Michel</item>
+        <item>Vila São Pedro</item>
+        <item>Vila São Sebastião</item>
+        <item>Vila São Teodoro</item>
+        <item>Vila Sapê</item>
+        <item>Vila Sarapuí</item>
+        <item>Vila Saudade</item>
+        <item>Vila Scintila</item>
+        <item>Vila Serrana (Vila Inhomirim)</item>
+        <item>Vila Sheila</item>
+        <item>Vila Sossego</item>
+        <item>Vila Sousa</item>
+        <item>Vila Sueli</item>
+        <item>Vila Suíça</item>
+        <item>Vila Tamoios</item>
+        <item>Vila Tarumã</item>
+        <item>Vila Teresa</item>
+        <item>Vila Tiradentes</item>
+        <item>Vila Três</item>
+        <item>Vila Três Corações</item>
+        <item>Vila Treze de Maio</item>
+        <item>Vila Ursulino</item>
+        <item>Vila Urussaí</item>
+        <item>Vila Valqueire</item>
+        <item>Vila Valverde</item>
+        <item>Vila Velha</item>
+        <item>Vila Velha (Santo Aleixo)</item>
+        <item>Vila Vênus</item>
+        <item>Vila Verde</item>
+        <item>Vila Verde (Cabuçu)</item>
+        <item>Vila Viçosa</item>
+        <item>Vila Visconde (Visconde de Itaboraí)</item>
+        <item>Vila Vista Alegre de Austin</item>
+        <item>Vila Vitória</item>
+        <item>Vila Vitorio</item>
+        <item>Vila Zenith</item>
+        <item>Vila Zulmira</item>
+        <item>Vilage</item>
+        <item>Vilage Parque Aeroporto</item>
+        <item>Vilar dos Coqueiros</item>
+        <item>Vilar dos Teles</item>
+        <item>Vilar Formoso</item>
+        <item>Vilar Grande</item>
+        <item>Vilarinho</item>
+        <item>Vilatur</item>
+        <item>Village</item>
+        <item>Village do Sol</item>
+        <item>Village do Sol (Visconde de Itaboraí)</item>
+        <item>Village Rio das Ostras</item>
+        <item>Village Sol e Mar</item>
+        <item>Vinhateiro</item>
+        <item>Virgem Santa</item>
+        <item>Visconde de Araújo</item>
+        <item>Visconde de Imbé</item>
+        <item>Vista Alegre</item>
+        <item>Vista Alegre (Tamoios)</item>
+        <item>Vital Brazil</item>
+        <item>Vitória</item>
+        <item>Vivamar (Tamoios)</item>
+        <item>Vivendas do Coqueiro I</item>
+        <item>Vivendas do Coqueiro II</item>
+        <item>Viverde I</item>
+        <item>Voldac</item>
+        <item>Volta do Pião</item>
+        <item>Volta Grande</item>
+        <item>Volta Grande II</item>
+        <item>Weda</item>
+        <item>Wona</item>
+        <item>Xavantes</item>
+        <item>Xerém</item>
+        <item>Xotó</item>
+        <item>Ypu</item>
+        <item>Zacarias</item>
+        <item>Zé Garoto</item>
+        <item>Zona Zen</item>
+        <item>Zumbi</item>
+    </string-array>
+
+     <string-array name="banks">
+         <item>BCO DO BRASIL S.A.	001</item>
+         <item>BRB – BCO DE BRASILIA S.A.	070</item>
+         <item>AGK CC S.A.	272</item>
+         <item>CONF NAC COOP CENTRAIS UNICRED	136</item>
+         <item>CAIXA ECONOMICA FEDERAL	104</item>
+         <item>BANCO INTER	077</item>
+         <item>BCO RIBEIRAO PRETO S.A.	741</item>
+         <item>BCO CETELEM S.A.	739</item>
+         <item>BANCO SEMEAR	743</item>
+         <item>PLANNER CV S.A.	100</item>
+         <item>BCO B3 S.A.	096</item>
+         <item>BCO RABOBANK INTL BRASIL S.A.	747</item>
+         <item>BCO COOPERATIVO SICREDI S.A.	748</item>
+         <item>BCO BNP PARIBAS BRASIL S A	752</item>
+         <item>CCCM UNICRED CENTRAL RS	091</item>
+         <item>KIRTON BANK	399</item>
+         <item>PORTOCRED S.A. – CFI	108</item>
+         <item>BANCOOB	756</item>
+         <item>BCO KEB HANA DO BRASIL S.A.	757</item>
+         <item>XP INVESTIMENTOS CCTVM S/A	102</item>
+         <item>UNIPRIME NORTE DO PARANÁ – CC	084</item>
+         <item>CM CAPITAL MARKETS CCTVM LTDA	180</item>
+         <item>BCO MORGAN STANLEY S.A.	066</item>
+         <item>UBS BRASIL CCTVM S.A.	015</item>
+         <item>TREVISO CC S.A.	143</item>
+         <item>HIPERCARD BM S.A.	062</item>
+         <item>BCO. J.SAFRA S.A.	074</item>
+         <item>UNIPRIME CENTRAL CCC LTDA.	099</item>
+         <item>BCO ALFA S.A.	025</item>
+         <item>PI DTVM S.A.	315</item>
+         <item>BCO ABN AMRO S.A.	075</item>
+         <item>BCO CARGILL S.A.	040</item>
+         <item>TERRA INVESTIMENTOS DTVM	307</item>
+         <item>SERVICOOP	190</item>
+         <item>VISION S.A. CC	296</item>
+         <item>BANCO BRADESCARD	063</item>
+         <item>NOVA FUTURA CTVM LTDA.	191</item>
+         <item>GOLDMAN SACHS DO BRASIL BM S.A	064</item>
+         <item>CCC NOROESTE BRASILEIRO LTDA.	097</item>
+         <item>CCM DESP TRÂNS SC E RS	016</item>
+         <item>SOROCRED CFI S.A.	299</item>
+         <item>BANCO INBURSA	12</item>
+         <item>BCO DA AMAZONIA S.A.	003</item>
+         <item>CONFIDENCE CC S.A.	060</item>
+         <item>BCO DO EST. DO PA S.A.	037</item>
+         <item>CASA CREDITO S.A. SCM	159</item>
+         <item>ALBATROSS CCV S.A	172</item>
+         <item>COOP CENTRAL AILOS	085</item>
+         <item>CENTRAL COOPERATIVA DE CRÉDITO NO	114</item>
+         <item>BCO BBI S.A.	036</item>
+         <item>BCO BRADESCO FINANC. S.A.	394</item>
+         <item>BCO DO NORDESTE DO BRASIL S.A.	004</item>
+         <item>BCO CCB BRASIL S.A.	320</item>
+         <item>HS FINANCEIRA	189</item>
+         <item>LECCA CFI S.A.	105</item>
+         <item>BCO KDB BRASIL S.A.	076</item>
+         <item>BANCO TOPÁZIO S.A.	082</item>
+         <item>CCR DE OURO	286</item>
+         <item>PÓLOCRED SCMEPP LTDA.	093</item>
+         <item>CCR DE SÃO MIGUEL DO OESTE	273</item>
+         <item>PAGSEGURO	290</item>
+         <item>ICAP DO BRASIL CTVM LTDA.	157</item>
+         <item>SOCRED S.A. SCM	183</item>
+         <item>STATE STREET BR S.A. BCO COMERCIAL	014</item>
+         <item>CARUANA SCFI	130</item>
+         <item>CODEPE CVC S.A.	127</item>
+         <item>BCO ORIGINAL DO AGRO S/A	079</item>
+         <item>BANCOSEGURO S.A.	081</item>
+         <item>CRESOL CONFEDERAÇÃO	133</item>
+         <item>BCO AGIBANK S.A.	121</item>
+         <item>BCO DA CHINA BRASIL S.A.	083</item>
+         <item>GET MONEY CC LTDA	138</item>
+         <item>BCO BANDEPE S.A.	024</item>
+         <item>OM DTVM LTDA	319</item>
+         <item>TRAVELEX BANCO DE CÂMBIO S.A.	095</item>
+         <item>BANCO FINAXIS	94</item>
+         <item>STANDARD CHARTERED BI S.A.	118</item>
+         <item>SENFF S.A. – CFI	276</item>
+         <item>BRK S.A. CFI	92</item>
+         <item>BCO DO EST. DE SE S.A.	047</item>
+         <item>BEXS BCO DE CAMBIO S.A.	144</item>
+         <item>BR PARTNERS BI	126</item>
+         <item>BPP IP S.A.	301</item>
+         <item>BRL TRUST DTVM SA	173</item>
+         <item>BCO WESTERN UNION	119</item>
+         <item>CAMBIONET CC LTDA	309</item>
+         <item>PARANA BCO S.A.	254</item>
+         <item>BARIGUI CH	268</item>
+         <item>BCO BOCOM BBM S.A.	107</item>
+         <item>BCO CAPITAL S.A.	412</item>
+         <item>BCO WOORI BANK DO BRASIL S.A.	124</item>
+         <item>FACTA S.A. CFI	149</item>
+         <item>STONE PAGAMENTOS S.A.	197</item>
+         <item>BROKER BRASIL CC LTDA.	142</item>
+         <item>BCO MERCANTIL DO BRASIL S.A.	389</item>
+         <item>BCO ITAÚ BBA S.A.	184</item>
+         <item>BCO TRIANGULO S.A.	634</item>
+         <item>SENSO CCVM S.A.	545</item>
+         <item>ICBC DO BRASIL BM S.A.	132</item>
+         <item>VIPS CC LTDA.	298</item>
+         <item>NU PAGAMENTOS S.A. (Nubank)	260</item>
+         <item>UBS BRASIL BI S.A.	129</item>
+         <item>MS BANK S.A. BCO DE CÂMBIO	128</item>
+         <item>PARMETAL DTVM LTDA	194</item>
+         <item>VORTX DTVM LTDA.	310</item>
+         <item>COMMERZBANK BRASIL S.A. – BCO MÚLTIPLO	163</item>
+         <item>AVISTA S.A. CFI	280</item>
+         <item>GUITTA CC LTDA	146</item>
+         <item>CCR DE PRIMAVERA DO LESTE	279</item>
+         <item>DACASA FINANCEIRA S/A – SCFI	182</item>
+         <item>GENIAL INVESTIMENTOS CVM S.A.	278</item>
+         <item>IB CCTVM LTDA	271</item>
+         <item>BCO BANESTES S.A.	021</item>
+         <item>BCO ABC BRASIL S.A.	246</item>
+         <item>BS2 DTVM S.A.	292</item>
+         <item>SCOTIABANK BRASIL	751</item>
+         <item>BANCO BTG PACTUAL S.A.	208</item>
+         <item>BCO MODAL S.A.	746</item>
+         <item>BCO CLASSICO S.A.	241</item>
+         <item>BCO C6 S.A.	336</item>
+         <item>BCO GUANABARA S.A.	612</item>
+         <item>BCO INDUSTRIAL DO BRASIL S.A.	604</item>
+         <item>BCO CREDIT SUISSE (BRL) S.A.	505</item>
+         <item>FAIR CC S.A.	196</item>
+         <item>BCO LA NACION ARGENTINA	300</item>
+         <item>CITIBANK N.A.	477</item>
+         <item>BCO CEDULA S.A.	266</item>
+         <item>BCO BRADESCO BERJ S.A.	122</item>
+         <item>BCO J.P. MORGAN S.A.	376</item>
+         <item>BCO CAIXA GERAL BRASIL S.A.	473</item>
+         <item>BCO CITIBANK S.A.	745</item>
+         <item>BCO RODOBENS S.A.	120</item>
+         <item>BCO FATOR S.A.	265</item>
+         <item>BNDES	7</item>
+         <item>ATIVA S.A. INVESTIMENTOS CCTVM	188</item>
+         <item>BGC LIQUIDEZ DTVM LTDA	134</item>
+         <item>BCO ALVORADA S.A.	641</item>
+         <item>BANCO ITAÚ CONSIGNADO S.A.	029</item>
+         <item>BCO MÁXIMA S.A.	243</item>
+         <item>HAITONG BI DO BRASIL S.A.	078</item>
+         <item>OLIVEIRA TRUST DTVM S.A.	111</item>
+         <item>PORTOPAR DTVM LTDA	306</item>
+         <item>BNY MELLON BCO S.A.	017</item>
+         <item>PERNAMBUCANAS FINANC S.A. CFI	174</item>
+         <item>BCO LA PROVINCIA B AIRES BCE	495</item>
+         <item>BRASIL PLURAL S.A. BCO.	125</item>
+         <item>JPMORGAN CHASE BANK	488</item>
+         <item>BCO ANDBANK S.A.	065</item>
+         <item>ING BANK N.V.	492</item>
+         <item>LEVYCAM CCV LTDA	145</item>
+         <item>BCV	250</item>
+         <item>BCO REP ORIENTAL URUGUAY BCE	494</item>
+         <item>BEXS CC S.A.	253</item>
+         <item>HSBC BANCO DE INVESTIMENTO	269</item>
+         <item>BCO ARBI S.A.	213</item>
+         <item>INTESA SANPAOLO BRASIL S.A. BM	139</item>
+         <item>BCO TRICURY S.A.	018</item>
+         <item>BCO SAFRA S.A.	422</item>
+         <item>BCO INTERCAP S.A.	630</item>
+         <item>BCO FIBRA S.A.	224</item>
+         <item>BCO LUSO BRASILEIRO S.A.	600</item>
+         <item>BANCO PAN	623</item>
+         <item>BCO BRADESCO CARTOES S.A.	204</item>
+         <item>BCO VOTORANTIM S.A.	655</item>
+         <item>BCO ITAUBANK S.A.	479</item>
+         <item>BCO MUFG BRASIL S.A.	456</item>
+         <item>BCO SUMITOMO MITSUI BRASIL S.A.	464</item>
+         <item>ITAÚ UNIBANCO S.A.	341</item>
+         <item>BCO BRADESCO S.A.	237</item>
+         <item>OMNI BANCO S.A.	613</item>
+         <item>ITAÚ UNIBANCO HOLDING S.A.	652</item>
+         <item>BCO SOFISA S.A.	637</item>
+         <item>BCO INDUSVAL S.A.	653</item>
+         <item>BCO CREFISA S.A.	69</item>
+         <item>BCO MIZUHO S.A.	370</item>
+         <item>BANCO INVESTCRED UNIBANCO S.A.	249</item>
+         <item>BCO BMG S.A.	318</item>
+         <item>BCO FICSA S.A.	626</item>
+         <item>SAGITUR CC LTDA	270</item>
+         <item>BCO SOCIETE GENERALE BRASIL	366</item>
+         <item>MAGLIANO S.A. CCVM	113</item>
+         <item>TULLETT PREBON BRASIL CVC LTDA	131</item>
+         <item>C.SUISSE HEDGING-GRIFFO CV S/A	11</item>
+         <item>BCO PAULISTA S.A.	611</item>
+         <item>BOFA MERRILL LYNCH BM S.A.	755</item>
+         <item>CCR REG MOGIANA	089</item>
+         <item>BCO PINE S.A.	643</item>
+         <item>EASYNVEST – TÍTULO CV SA	140</item>
+         <item>BCO DAYCOVAL S.A	707</item>
+         <item>CAROL DTVM LTDA.	288</item>
+         <item>RENASCENCA DTVM LTDA	101</item>
+         <item>DEUTSCHE BANK S.A.BCO ALEMAO	487</item>
+         <item>BANCO CIFRA	233</item>
+         <item>GUIDE	177</item>
+         <item>BCO RENDIMENTO S.A.	633</item>
+         <item>BCO BS2 S.A.	218</item>
+         <item>BCO OLÉ BONSUCESSO CONSIGNADO S.A.	169</item>
+         <item>LASTRO RDV DTVM LTDA	293</item>
+         <item>FRENTE CC LTDA.	285</item>
+         <item>B&amp;T CC LTDA.	080</item>
+         <item>NOVO BCO CONTINENTAL S.A. – BM	753</item>
+         <item>BCO CRÉDIT AGRICOLE BR S.A.	222</item>
+         <item>CCR COOPAVEL	281</item>
+         <item>BANCO SISTEMA	754</item>
+         <item>CREDIALIANÇA CCR	098</item>
+         <item>BCO VR S.A.	610</item>
+         <item>BCO OURINVEST S.A.	712</item>
+         <item>CREDICOAMO	010</item>
+         <item>RB CAPITAL INVESTIMENTOS DTVM LTDA.	283</item>
+         <item>BCO SANTANDER (BRASIL) S.A.	033</item>
+         <item>BANCO JOHN DEERE S.A.	217</item>
+         <item>BCO DO ESTADO DO RS S.A.	041</item>
+         <item>ADVANCED CC LTDA	117</item>
+         <item>BCO A.J. RENNER S.A.	654</item>
+         <item>BANCO ORIGINAL	212</item>
+         <item>DECYSEO CC LTDA.	289</item>
+     </string-array>
+     <string name="title_activity_dashboard">DashboardActivity</string>
+     <!-- Strings used for fragments for navigation -->
+
+</resources>

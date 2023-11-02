@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp"
+        app:cardMaxElevation="3dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="false"
+        app:cardBackgroundColor="@color/colorWhite"
+        android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_img_add_p"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="centerInside"/>
+
+        <TextView
+            android:id="@+id/tv_title_add_p"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_img_add_p"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_price_add_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/iv_img_add_p"
+            android:layout_below="@+id/tv_title_add_p"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/iv_img_add_p" />
+
+        <TextView
+            android:id="@+id/tv_categorie_add_p"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/iv_img_add_p"
+            android:layout_below="@+id/tv_price_add_p"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/iv_img_add_p" />
+
+        <Button
+            android:id="@+id/btn_add_product_it"
+            android:text="Modificar"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rect_button"
+            android:layout_below="@+id/iv_img_add_p"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+</RelativeLayout>

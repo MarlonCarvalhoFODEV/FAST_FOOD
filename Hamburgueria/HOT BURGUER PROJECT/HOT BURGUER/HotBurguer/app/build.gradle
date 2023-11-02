@@ -1,0 +1,77 @@
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/'}
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.12.8, 0.99.99]'
+    }
+}
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+//
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.1"
+
+    defaultConfig {
+        applicationId "com.hotburguer"
+        manifestPlaceholders = [
+                onesignal_app_id: '98c46fd1-2bd2-4226-bd83-480ec194b796',
+                // Project number pulled from dashboard, local value is ignored.
+                onesignal_google_project_number: '859289562353'
+        ]
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 16
+        versionName "1.14"
+        multiDexEnabled true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            //proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.onesignal:OneSignal:[3.15.0, 3.99.99]'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.navigation:navigation-fragment:2.3.5'
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation 'com.github.rtoshiro.mflibrary:mflibrary:1.0.0'
+    implementation 'com.facebook.android:facebook-android-sdk:9.0.0'
+    //noinspection GradleCompatible
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.kofigyan.stateprogressbar:stateprogressbar:1.0.0'
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    implementation 'com.daimajia.androidanimations:library:2.4@aar'
+    implementation 'com.daimajia.easing:library:2.4@aar'
+    implementation 'com.facebook.fresco:fresco:2.3.0'
+
+
+    implementation platform('com.google.firebase:firebase-bom:26.0.0')
+    implementation 'com.google.firebase:firebase-dynamic-links'
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    implementation 'com.facebook.fresco:fresco:2.3.0'
+    implementation "com.facebook.fresco:imagepipeline-okhttp3:2.3.0"
+}
